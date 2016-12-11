@@ -2,7 +2,7 @@
 
 return [
     'name' => 'Gerhard Kuschnik',
-    'title' => 'Startup Web Developer (PHP)',
+    'title' => 'Startup Web Developer',
     'description' => 'I build startup technology.<BR>
                     I bring business ideas to market.<BR>
                     I know web app development.<BR><BR>

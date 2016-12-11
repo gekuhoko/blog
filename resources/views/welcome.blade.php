@@ -17,7 +17,8 @@
         <link rel="stylesheet" href="/assets/application.css">
         <link id="switch_style" rel="stylesheet" href="/assets/blue.css">
     </head>
-
+    <body>
+    @include('partials.googleAnalytics')
 
     @include('partials.navigationBar')
 
