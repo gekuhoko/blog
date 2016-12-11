@@ -1,0 +1,102 @@
+.popout {
+  position: fixed;
+  width: 155px;
+  background-color: #fdfdfd;
+  color: #212121;
+  top: 160px;
+  right: -155px;
+  transition: 500ms transform ease-in-out;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  z-index: 5;
+  padding-bottom: 4px; }
+  .popout p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px; }
+  .popout .nav-tabs .active {
+    border: 2px solid #2196F3; }
+  .popout ul {
+    margin: 0;
+    text-align: center;
+    padding: 2px; }
+  .popout .nav-toggle-icon {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 3px;
+    transition: .4s;
+    margin: 2px;
+    font-size: 24px;
+    border-radius: 50%;
+    background: #eeeded;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.41); }
+    .popout .nav-toggle-icon:hover {
+      transform: scale(1.1); }
+  .popout .nav-tabs > li {
+    float: none;
+    margin-bottom: -1px;
+    text-align: center;
+    display: inline-block; }
+  .popout .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 1px 10px;
+    border: 0; }
+    .popout .nav > li > a:hover, .popout .nav > li > a:focus, .popout .nav > li > a:active {
+      border: 0; }
+  .popout .toggle {
+    display: table;
+    position: absolute;
+    top: 35px;
+    text-align: center;
+    left: -41px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    width: 40px;
+    font-size: 20px;
+    height: 40px;
+    background-color: #fdfdfd;
+    color: #222527;
+    cursor: pointer; }
+    .popout .toggle i {
+      font-size: 28px;
+      position: relative;
+      top: 2px; }
+  .popout .tab-pane {
+    text-align: center; }
+    .popout .tab-pane ul {
+      margin: 0;
+      text-align: center;
+      padding: 0; }
+      .popout .tab-pane ul li {
+        width: 25px;
+        height: 25px;
+        margin: 0 3px;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: .4s; }
+        .popout .tab-pane ul li:hover {
+          transform: scale(1.1); }
+
+.red {
+  background: #f44336; }
+
+.green {
+  background: #2ecc71; }
+
+.blue {
+  background: #3498db; }
+
+.purple {
+  background: #9b59b6; }
+
+.orange {
+  background: #FF5722; }
+
+.pink {
+  background: #E91E63; }
+
+/*# sourceMappingURL=toggle.css.map */

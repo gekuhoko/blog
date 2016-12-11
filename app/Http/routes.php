@@ -25,14 +25,12 @@
 
 
     Roadmap:
-        LAUNCH
-        1. Put online
-        2. Implement frontend
-        3. Implement GA for basic tracking
+        2. Implement GA for basic tracking
 
         Article Content
         3. Add current articles
         4. Add CRUD + Hide
+        5. Put online
 
         Data Collection
         5. Add web push
