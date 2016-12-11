@@ -10,8 +10,8 @@
         </div>
         <div class="links animated fadeInUp delay0-2s">
             <!--LINKS-->
-            <a href="http://demo.trimatrixlab.com/sole/index-blog-post.html#" target="_blank">Facebook</a>
-            <a href="http://demo.trimatrixlab.com/sole/index-blog-post.html#" target="_blank">Twitter</a>
+            <a href="" target="_blank">Facebook</a>
+            <a href="" target="_blank">Twitter</a>
         </div>
     </div>
 </div>
