@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'headline' => 'Idea to Market',
     'name' => 'Gerhard Kuschnik',
     'title' => 'Startup Web Developer',
     'email' => 'kuschnik.gerhard@gmail.com',

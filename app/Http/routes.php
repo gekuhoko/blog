@@ -34,7 +34,7 @@ Route::get('/author', function () {
 
 /* Roadmap:
         MON
-        Article Content
+        Article Content (4h)
         1. add author website
         2. Set up DB Add current articles
         3. Add CRUD

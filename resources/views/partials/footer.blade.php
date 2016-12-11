@@ -3,23 +3,24 @@
     <div class="container">
         <div class="row">
 
-            <div class="footer-infos col-md-5"></div>
+            <div class="footer-infos col-md-2"></div>
 
             <div class="footer-infos col-md-3">
                 <h5>Got an idea?</h5>
                 <p>
-                    I enjoy helping founders. Send an email - maybe I can give helpful input or even support you with building your first product.
+                    I enjoy helping founders. Send an email - maybe I can give helpful input or even support you with building your first product.<BR><BR>
                 </p>
             </div>
 
-            <div class="footer-infos col-md-1"></div>
+            <div class="footer-infos col-md-2"></div>
 
             <div class="footer-infos col-md-3">
-                <h5>{{config('owner.name')}}</h5>
+                <h5 style="width:100%;">{{config('owner.name')}}</h5>
                 <p>{{config('owner.title')}}</p>
                 <p><a style="text-decoration: underline" href="mailto:{{config('owner.email')}}">{{config('owner.email')}}</a></p>
             </div>
 
+            <div class="footer-infos col-md-2"></div>
             {{--
                     <div class="footer-socials col-md-3 col-md-push-3">
                             <h5>Explore</h5>
