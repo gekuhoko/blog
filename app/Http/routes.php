@@ -22,20 +22,30 @@
 
     I need that system to build networking-equity.
     This system is useful for friends as well
+*/
 
+Route::get('/', function () {
+    return view('index');
+});
 
-    Roadmap:
-        2. Implement GA for basic tracking
+Route::get('/author', function () {
+    return view('author');
+});
 
+/* Roadmap:
+        MON
         Article Content
-        3. Add current articles
-        4. Add CRUD + Hide
-        5. Put online
+        1. add author website
+        2. Set up DB Add current articles
+        3. Add CRUD
+        4. Put online
 
+
+        TUE
         Data Collection
         5. Add web push
         6. Add Email signup
-        7. Add Phone number
+        7. Add Phone number signup
 
         Automatic distribution
         8. FB Post
@@ -50,11 +60,3 @@
 
 
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/author', function () {
-    return view('welcome');
-});

@@ -1,12 +1,6 @@
-<!--BLOG POST-->
-
-<!--TITLE-->
 <h4>Persistence</h4>
-
-<!--AUTHOR-->
 <p>August 24, 2013 at 9:00 PM</p>
 
-<!--PREVIEW IMAGE-->
 <div class="main-image">
     <img src="/assets/1.jpg" alt="">
 
@@ -22,7 +16,6 @@
     </div>
 </div>
 
-<!--POST CONTENT-->
 <p class="lead">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut,
     error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni
@@ -67,11 +60,15 @@
     <li>Faucibus porta lacus fringilla vel</li>
 </ul>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo,
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo,
     aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam
-    recusandae? Qui, necessitatibus, est!</p>
+    recusandae? Qui, necessitatibus, est!
+</p>
 
 <hr>
+
+
 {{--
 <!--POSTED COMMENTS-->
 <h5>Tags</h5>
