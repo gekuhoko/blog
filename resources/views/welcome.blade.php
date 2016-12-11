@@ -28,6 +28,7 @@
                 <!--BLOG MAINBAR -->
                 <div class="main-content col-md-8">
                     @include('partials.blogPost')
+                    @include('partials.blogPost')
                 </div>
 
                 <!--BLOG SIDEBAR -->

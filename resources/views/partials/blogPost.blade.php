@@ -6,8 +6,6 @@
 <!--AUTHOR-->
 <p>August 24, 2013 at 9:00 PM</p>
 
-<hr>
-
 <!--PREVIEW IMAGE-->
 <div class="main-image">
     <img src="/assets/1.jpg" alt="">
@@ -23,8 +21,6 @@
         </div>
     </div>
 </div>
-
-<hr>
 
 <!--POST CONTENT-->
 <p class="lead">
@@ -76,7 +72,7 @@
     recusandae? Qui, necessitatibus, est!</p>
 
 <hr>
-
+{{--
 <!--POSTED COMMENTS-->
 <h5>Tags</h5>
 <hr>
@@ -173,3 +169,4 @@
 
     </form>
 </div>
+--}}

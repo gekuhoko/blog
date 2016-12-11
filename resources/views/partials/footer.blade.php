@@ -2,13 +2,14 @@
     <div class="container">
         <div class="row">
 
+            <div class="footer-infos col-md-9"></div>
             <div class="footer-infos col-md-3">
-                <h5>John Doe | Blog</h5>
-                <p>Frontend Developer, Dextro Soft, UK</p>
-                <p>Brooklyn, New York</p>
-                <p>john@sole.com</p>
+                <h5>{{config('owner.name')}}</h5>
+                <p>{{config('owner.title')}}</p>
+                <p><a style="text-decoration: underline" href="mailto:{{config('owner.email')}}">{{config('owner.email')}}</a></p>
             </div>
 
+            {{--
             <div class="footer-infos col-md-3 col-md-push-1">
                 <h5>Text Content</h5>
                 <p>
@@ -35,6 +36,7 @@
                 </ul>
                 <p>Copyright © Sole | Blog Post 2016</p>
             </div>
+            --}}
 
         </div>
     </div>
