@@ -46,7 +46,6 @@ Route::group([
 
 /* Roadmap:
         TUE
-        1. Add backend for CRUD (until 12:00)
         2. Add web push
         3. Add Email signup
         4. Add Phone number signup
