@@ -3,8 +3,9 @@
 @section('content')
         <!--BLOG MAINBAR -->
     <div class="main-content col-md-8">
-        @include('partials.blogPost')
-        @include('partials.blogPost')
+        @foreach ($posts as $post)
+            @include('partials.blogPost', ['post' => $post])
+        @endforeach
     </div>
 
     <!--BLOG SIDEBAR -->

@@ -1,70 +1,25 @@
-<h4>Persistence</h4>
-<p>August 24, 2013 at 9:00 PM</p>
+<h2>{!! $post->title !!}</h2>
+<p>{{ $post->created_at }}</p>
 
-<div {{--class="main-image"--}} style="display: block; max-width: 100%; height: auto;">
-    <img src="/assets/1.jpg" style="display: block; max-width: 100%; height: auto;">
+@if($post->image_url)
+    <div {{--class="main-image"--}} style="display: block; max-width: 100%; height: auto;">
+        <img src="{{$post->image_url}}" style="display: block; max-width: 100%; height: auto;">
 
-    <div class="caption-and-link">
-        <div class="caption">
-            <h6 class="animated fadeInUp">Share</h6>
+        {{--<div class="caption-and-link">
+            <div class="caption">
+                <h6 class="animated fadeInUp">Share</h6>
+            </div>
+            <div class="links animated fadeInUp delay0-2s">
+                <!--LINKS-->
+                <a href="" target="_blank">Facebook</a>
+                <a href="" target="_blank">Twitter</a>
+            </div>
         </div>
-        <div class="links animated fadeInUp delay0-2s">
-            <!--LINKS-->
-            <a href="" target="_blank">Facebook</a>
-            <a href="" target="_blank">Twitter</a>
-        </div>
+        --}}
     </div>
-</div>
+@endif
 
-<p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut,
-    error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni
-    recusandae laborum minus inventore?
-</p>
-
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos
-    iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat.
-    Temporibus, voluptatibus.
-</p>
-
-<blockquote>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos
-        iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat.
-        Temporibus, voluptatibus.
-    </p>
-</blockquote>
-
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis
-    unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat
-    perspiciatis. Enim, iure!
-</p>
-
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas
-    placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem
-    obcaecati?
-</p>
-
-<ul>
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Consectetur adipiscing elit</li>
-    <li>Nulla volutpat aliquam velit
-        <ul>
-            <li>Phasellus iaculis neque</li>
-            <li>Purus sodales ultricies</li>
-        </ul>
-    </li>
-    <li>Faucibus porta lacus fringilla vel</li>
-</ul>
-
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo,
-    aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam
-    recusandae? Qui, necessitatibus, est!
-</p>
+{!! $post->body !!}
 
 <hr>
 

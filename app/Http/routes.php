@@ -25,7 +25,10 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    $posts = App\Post::where('type', 'article')
+        ->orderBy('created_at', 'DESC')
+        ->get();
+    return view('index', compact('posts'));
 });
 
 Route::get('/author', function () {
@@ -35,10 +38,9 @@ Route::get('/author', function () {
 /* Roadmap:
         MON
         Article Content (3h)
-        1. disable sharing option, should be done better (0)
-        2. Set up DB Add current articles (1h)
-        4. Put online (0.5h)
-        3. Add backend for CRUD (1.5h)
+        2. Set up DB Add current articles (until 11:00)
+        4. Put online (until 11:15)
+        3. Add backend for CRUD (until 12:00)
 
 
         TUE
