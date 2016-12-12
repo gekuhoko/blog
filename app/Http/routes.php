@@ -37,9 +37,6 @@ Route::get('/author', function () {
 
 /* Roadmap:
         MON
-        Article Content (3h)
-        2. Set up DB Add current articles (until 11:00)
-        4. Put online (until 11:15)
         3. Add backend for CRUD (until 12:00)
 
 

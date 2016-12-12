@@ -23,7 +23,7 @@
         @include('partials.navigationBar')
 
         <main>
-            <div class="container">
+            <div class="container" style="overflow: hidden;">
                 <div class="row">
                     @yield('content')
                 </div>
