@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
+use Illuminate\Support\Facades\Input;
 
 class BackendController extends Controller
 {
@@ -24,9 +25,19 @@ class BackendController extends Controller
 
     public function postCreate()
     {
-        // todo
+        $result = ['result' => false, 'message' => 'Generic Error'];
 
-        return ['result' => true];
+        $data = Input::get('data');
+        $post = new Post;
+        $post->title = $data['title'];
+        $post->body = $data['body'];
+        $post->type = 'article';
+
+        if ($post->save()){
+            $result = ['result' => true];
+        }
+
+        return $result;
     }
 
     public function getDelete($id)

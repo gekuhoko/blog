@@ -45,15 +45,11 @@ Route::group([
 
 
 /* Roadmap:
-        MON
-        3. Add backend for CRUD (until 12:00)
-
-
         TUE
-        Data Collection
-        5. Add web push
-        6. Add Email signup
-        7. Add Phone number signup
+        1. Add backend for CRUD (until 12:00)
+        2. Add web push
+        3. Add Email signup
+        4. Add Phone number signup
 
         Automatic distribution
         8. FB Post

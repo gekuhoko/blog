@@ -1,5 +1,5 @@
 <h2>{!! $post->title !!}</h2>
-<p>{{ $post->created_at }}</p>
+<p>{{ $post->formattedCreatedAt() }}</p>
 
 @if($post->image_url)
     <div {{--class="main-image"--}} style="display: block; max-width: 100%; height: auto;">
