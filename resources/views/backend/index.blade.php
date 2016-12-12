@@ -2,6 +2,8 @@
 
 @section('content')
     <div class="main-content col-md-12">
+        <a class="btn btn-success" href="/backend/create" onclick="(this).prop('disabled', true)">Create</a><BR><BR>
+
         @foreach ($posts as $post)
             <div class="row" style="border:1px solid lightgrey; padding:10px;">
                 <div class="col-md-6">

@@ -17,6 +17,18 @@ class BackendController extends Controller
         return view('backend.index', compact('posts'));
     }
 
+    public function getCreate()
+    {
+        return view('backend.create');
+    }
+
+    public function postCreate()
+    {
+        // todo
+
+        return ['result' => true];
+    }
+
     public function getDelete($id)
     {
         $post = Post::find($id);

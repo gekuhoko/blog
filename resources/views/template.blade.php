@@ -38,5 +38,7 @@
         <script src="/assets/masonry-3.1.4.js"></script>
         <script src="/assets/main-blog.js"></script>
 
+        @stack('scriptPush')
+
     </body>
 </html>
