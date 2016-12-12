@@ -1,8 +1,8 @@
 <h4>Persistence</h4>
 <p>August 24, 2013 at 9:00 PM</p>
 
-<div class="main-image">
-    <img src="/assets/1.jpg" alt="">
+<div {{--class="main-image"--}} style="display: block; max-width: 100%; height: auto;">
+    <img src="/assets/1.jpg" style="display: block; max-width: 100%; height: auto;">
 
     <div class="caption-and-link">
         <div class="caption">

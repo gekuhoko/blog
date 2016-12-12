@@ -13,7 +13,7 @@
         <!--COLLECT THE NAV LINKS, FORMS, AND OTHER CONTENT FOR TOGGLING-->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="/">Feed</a></li>
+                <li><a class="page-scroll" href="/">Content</a></li>
                 <li><a class="page-scroll" href="/author">{{config('owner.name')}}</a></li>
             </ul>
         </div>

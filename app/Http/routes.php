@@ -34,11 +34,11 @@ Route::get('/author', function () {
 
 /* Roadmap:
         MON
-        Article Content (4h)
-        1. add author website
-        2. Set up DB Add current articles
-        3. Add CRUD
-        4. Put online
+        Article Content (3h)
+        1. disable sharing option, should be done better (0)
+        2. Set up DB Add current articles (1h)
+        4. Put online (0.5h)
+        3. Add backend for CRUD (1.5h)
 
 
         TUE
@@ -58,5 +58,5 @@ Route::get('/author', function () {
         BI
         ...
 
-
+        Virality with sharing links
 */
