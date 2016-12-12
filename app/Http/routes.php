@@ -35,6 +35,15 @@ Route::get('/author', function () {
     return view('author');
 });
 
+Route::group([
+    'middleware' => ['auth.basic'],
+], function() {
+    Route::controller('backend', 'BackendController');
+});
+
+
+
+
 /* Roadmap:
         MON
         3. Add backend for CRUD (until 12:00)
