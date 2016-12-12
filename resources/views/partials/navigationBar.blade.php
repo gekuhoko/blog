@@ -13,8 +13,11 @@
         <!--COLLECT THE NAV LINKS, FORMS, AND OTHER CONTENT FOR TOGGLING-->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="/">Content</a></li>
-                <li><a class="page-scroll" href="/author">{{config('owner.name')}}</a></li>
+                @if(strpos(Request::path(), 'author') !== false)
+                    <li><a class="page-scroll" href="/">Read</a></li>
+                @else
+                    <li><a class="page-scroll" href="/author">About {{config('owner.name')}}</a></li>
+                @endif
             </ul>
         </div>
     </div>
