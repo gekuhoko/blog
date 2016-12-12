@@ -40,6 +40,29 @@ class BackendController extends Controller
         return $result;
     }
 
+
+    public function getEdit($id)
+    {
+        $post = Post::find($id);
+        return view('backend.edit', compact('post'));
+    }
+
+    public function postEdit($id)
+    {
+        $result = ['result' => false, 'message' => 'Generic Error'];
+
+        $data = Input::get('data');
+        $post = Post::find($id);
+        $post->title = $data['title'];
+        $post->body = $data['body'];
+
+        if ($post->save()){
+            $result = ['result' => true];
+        }
+
+        return $result;
+    }
+
     public function getDelete($id)
     {
         $post = Post::find($id);
