@@ -35,6 +35,8 @@ Route::get('/author', function () {
     return view('author');
 });
 
+Route::controller('api/push-notification/', 'PushNotificationController');
+
 Route::group([
     'middleware' => ['auth.basic'],
 ], function() {
@@ -45,10 +47,14 @@ Route::group([
 
 
 /* Roadmap:
-        TUE
-        2. Add web push
-        3. Add Email signup
-        4. Add Phone number signup
+
+        TUE Blog development - data collection
+            2. Add web push
+            3. Add Email signup
+            4. Add Phone number signup
+        WED Write article
+        THU Add pic upload + IG Autopost
+        FRI Facebook Autopost
 
         Automatic distribution
         8. FB Post

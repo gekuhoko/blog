@@ -1,0 +1,77 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+use App\MobileDevice;
+use App\Components\CustomBuilder;
+
+class PushNotification extends Model
+{
+    /**
+     * Get a new query builder instance for the connection.
+     *
+     * @return \Illuminate\Database\Query\Builder
+     */
+    protected function newBaseQueryBuilder()
+    {
+        $conn = $this->getConnection();
+        $grammar = $conn->getQueryGrammar();
+        return new CustomBuilder($conn, $grammar, $conn->getPostProcessor());
+    }
+
+    /**
+     * todo: log the messages with result
+     *
+     * send a web push notification to every device of a user
+     *
+     * @param $userId
+     */
+
+    public static function send ($userId, $title, $body, $icon, $link)
+    {
+        // persist push notification
+        $pushNotification = new PushNotification;
+        $pushNotification->user = $userId;
+        $pushNotification->title = $title;
+        $pushNotification->body = $body;
+        $pushNotification->icon = $icon;
+        $pushNotification->link = $link;
+        $pushNotification->save();
+
+        // trigger notification event for every device
+
+        $result = [];
+        $devices = MobileDevice::where('user', $userId)->get();
+        foreach ($devices as $device){
+            $data = json_encode([
+                "registration_ids" => [$device->token],
+            ]);
+
+            $ch = curl_init('https://android.googleapis.com/gcm/send');
+            $headers = [
+                'Authorization: key='.env('GOOGLE_CLOUD_MESSAGING_KEY'),
+                'Content-Type: application/json',
+            ];
+
+            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+            $result[] = curl_exec($ch);
+            curl_close($ch);
+        }
+
+        return $result;
+    }
+
+    public function receiver(){
+        return User::find($this->user);
+    }
+
+    public function devices(){
+        return MobileDevice::where('user', $this->receiver()->id)->get();
+    }
+
+}
