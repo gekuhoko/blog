@@ -16,40 +16,34 @@ class PushNotification extends Model
      * @param $userId
      */
 
-    public static function send ($userId, $title, $body, $icon, $link)
+    public static function send ($device, $title, $body, $icon, $link)
     {
         // persist push notification
         $pushNotification = new PushNotification;
-        $pushNotification->user = $userId;
+        $pushNotification->user = 1;
         $pushNotification->title = $title;
         $pushNotification->body = $body;
         $pushNotification->icon = $icon;
         $pushNotification->link = $link;
         $pushNotification->save();
 
-        // trigger notification event for every device
+        $data = json_encode([
+            "registration_ids" => [$device->token],
+        ]);
 
-        $result = [];
-        $devices = MobileDevice::where('user', $userId)->get();
-        foreach ($devices as $device){
-            $data = json_encode([
-                "registration_ids" => [$device->token],
-            ]);
+        $ch = curl_init('https://android.googleapis.com/gcm/send');
+        $headers = [
+            'Authorization: key='.env('GOOGLE_CLOUD_MESSAGING_KEY'),
+            'Content-Type: application/json',
+        ];
 
-            $ch = curl_init('https://android.googleapis.com/gcm/send');
-            $headers = [
-                'Authorization: key='.env('GOOGLE_CLOUD_MESSAGING_KEY'),
-                'Content-Type: application/json',
-            ];
-
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-            $result[] = curl_exec($ch);
-            curl_close($ch);
-        }
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        $result[] = curl_exec($ch);
+        curl_close($ch);
 
         return $result;
     }

@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
 use Illuminate\Support\Facades\Input;
+use App\PushNotification;
+use App\MobileDevice;
 
 class BackendController extends Controller
 {
@@ -33,8 +35,15 @@ class BackendController extends Controller
         $post->body = $data['body'];
         $post->type = 'article';
 
+        $icon = url('/');
+        $link = url('/icon-192.png');
+
         if ($post->save()){
             $result = ['result' => true];
+            $devices = MobileDevice::all();
+            foreach($devices as $device){
+                PushNotification::send($device, $data['title'], $data['body'], $icon, $link);
+            }
         }
 
         return $result;
