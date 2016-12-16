@@ -16,6 +16,9 @@
         <!--MAIN STYLESHEET-->
         <link rel="stylesheet" href="/assets/application.css">
         <link id="switch_style" rel="stylesheet" href="/assets/blue.css">
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
     </head>
 
     <body>
