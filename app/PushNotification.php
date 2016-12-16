@@ -42,8 +42,11 @@ class PushNotification extends Model
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+
         $result[] = curl_exec($ch);
         curl_close($ch);
+
+        var_dump($result);
 
         return $result;
     }
