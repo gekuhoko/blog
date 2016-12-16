@@ -61,7 +61,7 @@ class PushNotificationController extends Controller
         $workerCode = '
             self.addEventListener(\'push\', function(event) {
                 event.waitUntil(
-                    fetch(\'/api/push-notification/content/news\').then(function(response){
+                    fetch(\'/api/push-notification/content\').then(function(response){
                         return response.json();
                     }).then(function(data) {
                         return self.registration.showNotification(
@@ -82,7 +82,7 @@ class PushNotificationController extends Controller
                         type: \'window\'
                     }).then(function(windowClients) {
 
-                        var url = \''. url('/api/push-notification/link/news'). '\';
+                        var url = \''. url('/api/push-notification/link'). '\';
 
                         for (var i = 0; i < windowClients.length; i++) {
                             var client = windowClients[i];
