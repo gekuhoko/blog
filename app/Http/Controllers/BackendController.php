@@ -64,6 +64,7 @@ class BackendController extends Controller
         $post = Post::find($id);
         $post->title = $data['title'];
         $post->body = $data['body'];
+        $post->created_at = $data['created_at'];
 
         if ($post->save()){
             $result = ['result' => true];
