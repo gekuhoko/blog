@@ -29,8 +29,8 @@ Route::get('/author', function () {
 });
 
 Route::post('/api/push-notification/register', 'PushNotificationController@postRegister');
-Route::get('/api/push-notification/content/{$type}', 'PushNotificationController@getContent');
-Route::get('/api/push-notification/link/{$type}', 'PushNotificationController@getLink');
+Route::get('/api/push-notification/content', 'PushNotificationController@getContent');
+Route::get('/api/push-notification/link', 'PushNotificationController@getLink');
 Route::get('/api/push-notification/worker-script', 'PushNotificationController@getWorkerScript');
 
 Route::get('/', function () {

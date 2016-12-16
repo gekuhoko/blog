@@ -9,18 +9,6 @@ use App\Components\CustomBuilder;
 class PushNotification extends Model
 {
     /**
-     * Get a new query builder instance for the connection.
-     *
-     * @return \Illuminate\Database\Query\Builder
-     */
-    protected function newBaseQueryBuilder()
-    {
-        $conn = $this->getConnection();
-        $grammar = $conn->getQueryGrammar();
-        return new CustomBuilder($conn, $grammar, $conn->getPostProcessor());
-    }
-
-    /**
      * todo: log the messages with result
      *
      * send a web push notification to every device of a user

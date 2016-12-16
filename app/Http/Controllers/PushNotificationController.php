@@ -18,7 +18,6 @@ class PushNotificationController extends Controller
     public function __construct()
     {
         $this->pushNotification = New PushNotification;
-        $this->middleware('localization');
     }
 
     public function postRegister()
@@ -36,11 +35,9 @@ class PushNotificationController extends Controller
         return ['result' => true];
     }
 
-    public function getContent($type)
+    public function getContent()
     {
-        // type is news
-        $pushNotification = PushNotification::where('type', $type)->orderBy('created_at', 'DESC')->first();
-
+        $pushNotification = PushNotification::where('id', '!=', 0)->orderBy('created_at', 'DESC')->first();
         if ($pushNotification){
             $result = [
                 'title' => $pushNotification->title,
@@ -52,9 +49,9 @@ class PushNotificationController extends Controller
         }
     }
 
-    public function getLink($type)
+    public function getLink()
     {
-        $pushNotification = PushNotification::where('user', $type)->orderBy('created_at', 'DESC')->first();
+        $pushNotification = PushNotification::where('id', '!=', 0)->orderBy('created_at', 'DESC')->first();
 
         return redirect($pushNotification->link);
     }
