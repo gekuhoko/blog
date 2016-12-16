@@ -32,6 +32,8 @@ Route::get('test-push', function(){
     $devices = App\MobileDevice::all();
     foreach($devices as $device){
         echo $device->token.' <BR>';
+        $link = url('/');
+        $icon = url('/icon-192.png');
         App\PushNotification::send($device, config('owner.name').' has written a new blog post!', 'title', $icon, $link);
     }
 });
