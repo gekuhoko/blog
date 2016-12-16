@@ -42,7 +42,7 @@ class BackendController extends Controller
             $result = ['result' => true];
             $devices = MobileDevice::all();
             foreach($devices as $device){
-                PushNotification::send($device, $data['title'], $data['body'], $icon, $link);
+                PushNotification::send($device, config('owner.name').' has written a new blog post!', $data['title'], $icon, $link);
             }
         }
 
