@@ -35,8 +35,8 @@ class BackendController extends Controller
         $post->body = $data['body'];
         $post->type = 'article';
 
-        $icon = url('/');
-        $link = url('/icon-192.png');
+        $link = url('/');
+        $icon = url('/icon-192.png');
 
         if ($post->save()){
             $result = ['result' => true];
