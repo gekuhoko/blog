@@ -47,8 +47,6 @@ Route::group([
 });
 
 
-
-
 /* Roadmap:
 
         TUE Blog development - data collection
