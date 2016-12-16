@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
 use App\PushNotification;
 use App\MobileDevice;
 use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\Auth;
 
 // For APIs:
 // in controller:   define the process flow

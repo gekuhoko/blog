@@ -24,18 +24,21 @@
     This system is useful for friends as well
 */
 
+Route::get('/author', function () {
+    return view('author');
+});
+
+Route::post('/api/push-notification/register', 'PushNotificationController@postRegister');
+Route::get('/api/push-notification/content/{$type}', 'PushNotificationController@getContent');
+Route::get('/api/push-notification/link/{$type}', 'PushNotificationController@getLink');
+Route::get('/api/push-notification/worker-script', 'PushNotificationController@getWorkerScript');
+
 Route::get('/', function () {
     $posts = App\Post::where('type', 'article')
         ->orderBy('created_at', 'DESC')
         ->get();
     return view('index', compact('posts'));
 });
-
-Route::get('/author', function () {
-    return view('author');
-});
-
-Route::controller('api/push-notification/', 'PushNotificationController');
 
 Route::group([
     'middleware' => ['auth.basic'],
