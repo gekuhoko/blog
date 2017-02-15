@@ -24,6 +24,10 @@
     This system is useful for friends as well
 */
 
+Route::get('session', function(){
+    dd(\Session::all());
+});
+
 Route::get('/author', function () {
     return view('author');
 });
@@ -33,6 +37,11 @@ Route::get('/api/push-notification/content', 'PushNotificationController@getCont
 Route::get('/api/push-notification/link', 'PushNotificationController@getLink');
 Route::get('/api/push-notification/worker-script', 'PushNotificationController@getWorkerScript');
 Route::get('worker.js', 'PushNotificationController@getWorkerScript');
+
+Route::controller('/api/email', 'EmailController');
+
+
+
 
 
 Route::get('/', function () {
@@ -51,15 +60,19 @@ Route::group([
 
 /* Roadmap:
 
-        Blog development - data collection
-            3. Add Email signup + unsubscribe
-            4. Add SMS signup + random switch + unsubscribe
+
+        Email:
+        30 min - Send out on creation
+            Implement google smtp from CB
+            Create email template
+        add unsubscribe link (token)
+
 
         Write article
 
         Add pic upload + IG Autopost
 
-        Add lazyload + specific post up link + (invisible) view counter
+        Add lazyload + specific post up link + (invisible) view counter + insta page switch
 
         Facebook Autopost
 
@@ -70,6 +83,8 @@ Route::group([
         11. YT Post
         12. Podcast / Audio
         13...?
+
+        Add SMS signup + random switch + unsubscribe
 
         BI
         ...

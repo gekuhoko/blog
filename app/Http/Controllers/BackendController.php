@@ -8,6 +8,7 @@ use App\Post;
 use Illuminate\Support\Facades\Input;
 use App\PushNotification;
 use App\MobileDevice;
+use App\Email;
 
 class BackendController extends Controller
 {
@@ -40,10 +41,15 @@ class BackendController extends Controller
 
         if ($post->save()){
             $result = ['result' => true];
+
+            // send out push notifications
             $devices = MobileDevice::all();
             foreach($devices as $device){
                 PushNotification::send($device, config('owner.name'), $data['title'], $icon, $link);
             }
+
+            // send out emails
+            Email::sendToAll();
         }
 
         return $result;

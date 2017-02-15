@@ -2,7 +2,8 @@
 
 @section('content')
     <div class="main-content col-md-12">
-        {{App\MobileDevice::all()->count()}} devices registered for web push<BR><BR>
+        {{App\MobileDevice::all()->count()}} devices registered for web push<BR>
+        {{App\Email::all()->count()}} emails registered for newsletter<BR><BR>
         <a class="btn btn-success" href="/backend/create" onclick="(this).prop('disabled', true)">Create</a><BR><BR>
 
         @foreach ($posts as $post)

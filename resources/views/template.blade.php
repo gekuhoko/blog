@@ -41,8 +41,15 @@
         <script src="/assets/bootstrap.min.js"></script>
         <script src="/assets/masonry-3.1.4.js"></script>
         <script src="/assets/main-blog.js"></script>
+        <script src="/assets/sweetalert.min.js"></script>
+        <link href="/assets/sweetalert.css" type="text/css" rel="stylesheet">
 
         @include('partials.pushNotificationScript')
+
+        @if(!session('email'))
+            @include('partials.emailScript')
+        @endif
+
         @stack('scriptPush')
 
     </body>
