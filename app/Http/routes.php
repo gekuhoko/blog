@@ -32,6 +32,8 @@ Route::post('/api/push-notification/register', 'PushNotificationController@postR
 Route::get('/api/push-notification/content', 'PushNotificationController@getContent');
 Route::get('/api/push-notification/link', 'PushNotificationController@getLink');
 Route::get('/api/push-notification/worker-script', 'PushNotificationController@getWorkerScript');
+Route::get('worker.js', 'PushNotificationController@getWorkerScript');
+
 
 Route::get('/', function () {
     $posts = App\Post::where('type', 'article')
@@ -49,20 +51,24 @@ Route::group([
 
 /* Roadmap:
 
-        TUE Blog development - data collection
-            2. Add web push
-            3. Add Email signup
-            4. Add Phone number signup
-        WED Write article
-        THU Add pic upload + IG Autopost
-        FRI Facebook Autopost
+        Blog development - data collection
+            3. Add Email signup + unsubscribe
+            4. Add SMS signup + random switch + unsubscribe
+
+        Write article
+
+        Add pic upload + IG Autopost
+
+        Add lazyload + specific post up link + (invisible) view counter
+
+        Facebook Autopost
 
         Automatic distribution
         8. FB Post
         9. LI Post
         10. IG Post
         11. YT Post
-        12. Postcast
+        12. Podcast / Audio
         13...?
 
         BI

@@ -1,6 +1,6 @@
 <script>
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/api/push-notification/worker-script')
+        navigator.serviceWorker.register('/worker.js')
         .then(function(reg) {
             reg.pushManager.subscribe({userVisibleOnly: true})
                     .then(function(sub) {
