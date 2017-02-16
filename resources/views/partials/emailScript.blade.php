@@ -7,14 +7,21 @@
     });
 
     $('.email_signup_button').on('click', function(){
-        $(this).html('Loading...').prop('disabled', true);
+
+        if ($('.email_signup_input').val() == ''){
+            $('.email_signup_input').first().focus();
+        }
+
+        var button = $(this);
+        var buttonLabel = button.html();
+        button.html('Loading...').prop('disabled', true);
         $.ajax({
             type: 'POST',
             url: '{{url('api/email/create')}}',
             data: {
                 _token: '{{csrf_token()}}',
                 data : {
-                    email: $('.email_signup_input').val()
+                    address: $('.email_signup_input').val()
                 }
             },
             success: function(response){
@@ -25,6 +32,13 @@
                         type: 'success',
                         title: 'Success',
                         text: 'Email got registered'
+                    });
+                } else {
+                    button.html(buttonLabel).prop('disabled', false);
+                    swal({
+                        type: 'error',
+                        title: 'Error',
+                        text: response.message
                     });
                 }
             }

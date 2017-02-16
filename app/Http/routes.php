@@ -62,8 +62,6 @@ Route::get('{anything}', function () {
 });
 /* Roadmap:
 
-
-        Email:
         30 min - Send out on creation
             Implement google smtp from CB
             Create email template
