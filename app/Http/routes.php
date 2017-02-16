@@ -28,13 +28,6 @@ Route::get('emailtest', function(){
     App\Email::sendToAll();
 });
 
-Route::get('deleteemails', function(){
-    $mails = App\Email::all();
-    foreach($mails as $mail){
-        $mail->delete();
-    }
-});
-
 Route::get('session', function(){
     dd(\Session::all());
 });
