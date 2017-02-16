@@ -12,4 +12,9 @@ class Post extends Model
         $time = new Carbon($this->created_at);
         return $time->toFormattedDateString();
     }
+
+    public static function latestItem()
+    {
+        return Post::where('title', '!=', '')->orderBy('created_at', 'desc')->first();
+    }
 }

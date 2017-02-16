@@ -24,6 +24,10 @@
     This system is useful for friends as well
 */
 
+Route::get('emailtest', function(){
+    App\Email::sendToAll();
+});
+
 Route::get('session', function(){
     dd(\Session::all());
 });
@@ -61,11 +65,6 @@ Route::get('{anything}', function () {
     return redirect('/');
 });
 /* Roadmap:
-
-        30 min - Send out on creation
-            Implement google smtp from CB
-            Create email template
-        add unsubscribe link (token)
 
 
         Write article
