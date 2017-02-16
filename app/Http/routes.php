@@ -57,7 +57,9 @@ Route::group([
     Route::controller('backend', 'BackendController');
 });
 
-
+Route::get('{anything}', function () {
+    return redirect('/');
+});
 /* Roadmap:
 
 
