@@ -14,14 +14,19 @@ class Email extends Model
         $post = Post::latestItem();
 
         $content = 'Hi,
-        I have written a new blog post:
+
+        There is a new blog post:
 
         <a href="https://gerhard-kuschnik.com">'.$post->title.'</a>
 
-        Let me know your thoughts!
+        Enjoy the read and please let me know your thoughts!
 
         Best,
-        Gerhard Kuschnik';
+
+        Gerhard Kuschnik
+        w <a href="https://gerhard-kuschnik.com">gerhard-kuschnik.com</a>
+        m <a href="tel:+85269079611">+852 6907-9611</a>
+        ';
 
         foreach($emails as $email){
             Mail::send('emails.plain', ['content' => $content], function ($m) use ($email, $post) {

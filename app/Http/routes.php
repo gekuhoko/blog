@@ -24,10 +24,6 @@
     This system is useful for friends as well
 */
 
-Route::get('emailtest', function(){
-    App\Email::sendToAll();
-});
-
 Route::get('session', function(){
     dd(\Session::all());
 });
