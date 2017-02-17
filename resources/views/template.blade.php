@@ -20,6 +20,8 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="manifest" href="/manifest.json">
+
+        @stack('headPush')
     </head>
 
     <body>

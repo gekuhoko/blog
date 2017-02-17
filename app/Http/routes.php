@@ -39,9 +39,7 @@ Route::get('/api/push-notification/worker-script', 'PushNotificationController@g
 Route::get('worker.js', 'PushNotificationController@getWorkerScript');
 
 Route::controller('/api/email', 'EmailController');
-
-
-
+Route::controller('api/picture', 'PictureController');
 
 
 Route::get('/', function () {
@@ -52,7 +50,7 @@ Route::get('/', function () {
 });
 
 Route::group([
-    'middleware' => ['auth.basic'],
+    'middleware' => ['auth.basic', 'csrf'],
 ], function() {
     Route::controller('backend', 'BackendController');
 });
@@ -62,14 +60,20 @@ Route::get('{anything}', function () {
 });
 /* Roadmap:
 
+        Add pic upload
+            -> display in post
 
         Write article
 
-        Add pic upload + IG Autopost
-
         Add lazyload + specific post up link + (invisible) view counter + insta page switch
 
+        Distribution:
+        Add preview
+        Add article link
+        IG Autopost
         Facebook Autopost
+
+        Add preview to post creation
 
         Automatic distribution
         8. FB Post

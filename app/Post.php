@@ -17,4 +17,11 @@ class Post extends Model
     {
         return Post::where('title', '!=', '')->orderBy('created_at', 'desc')->first();
     }
+
+    public static function nextId()
+    {
+        return self::latestItem()->id ++;
+    }
+
+
 }
