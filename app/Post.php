@@ -19,6 +19,11 @@ class Post extends Model
         return Post::where('title', '!=', '')->orderBy('created_at', 'desc')->first();
     }
 
+    public static function slug($title)
+    {
+        return str_replace(' ', '-', strtolower($title));
+    }
+
     public static function nextId()
     {
         $newestId = self::latestItem()->id;

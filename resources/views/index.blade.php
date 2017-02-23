@@ -3,8 +3,23 @@
 @section('content')
         <!--BLOG MAINBAR -->
     <div class="main-content col-md-8">
+
+        @if($selectedPost)
+            @include('partials.blogPost', ['post' => $selectedPost])
+            <hr>
+            @if(!session('email'))
+                @include('partials.emailSignup')
+                <hr>
+            @endif
+        @endif
+
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
+            <hr>
+            @if(!session('email'))
+                @include('partials.emailSignup')
+                <hr>
+            @endif
         @endforeach
     </div>
 

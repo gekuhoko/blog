@@ -35,6 +35,7 @@ class BackendController extends Controller
         $post->title = $data['title'];
         $post->body = $data['body'];
         $post->type = 'article';
+        $post->slug = Post::slug($data['title']);
 
         $link = url('/');
         $icon = url('/icon-192.png');

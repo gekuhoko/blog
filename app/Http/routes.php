@@ -24,41 +24,25 @@
     This system is useful for friends as well
 */
 
-Route::post('/api/push-notification/register', 'PushNotificationController@postRegister');
-Route::get('/api/push-notification/content', 'PushNotificationController@getContent');
-Route::get('/api/push-notification/link', 'PushNotificationController@getLink');
-Route::get('/api/push-notification/worker-script', 'PushNotificationController@getWorkerScript');
-Route::get('worker.js', 'PushNotificationController@getWorkerScript');
-
-Route::controller('/api/email', 'EmailController');
-Route::controller('/api/picture', 'PictureController');
-
-Route::get('/author', function () {
-    return view('author');
-});
-
-Route::get('/', function () {
-    $posts = App\Post::where('type', 'article')
-        ->orderBy('created_at', 'DESC')
-        ->get();
-    return view('index', compact('posts'));
-});
-
 Route::group([
     'middleware' => ['auth.basic', 'csrf'],
 ], function() {
     Route::controller('backend', 'BackendController');
 });
 
-Route::get('{anything}', function () {
-    return redirect('/');
-});
+Route::controller('api/email', 'EmailController');
+Route::controller('api/picture', 'PictureController');
+Route::controller('api/push-notification', 'PushNotificationController');
+
+//Route::controller('/', 'PageController');
+
+Route::get('/', 'PageController@getIndex');
+Route::get('author', 'PageController@getAuthor');
+Route::get('{fallback}', 'PageController@fallback');
+
+
+
 /* Roadmap:
-
-        Add pic upload
-            -> display in post
-
-        Write article
 
         Add lazyload + specific post up link + (invisible) view counter + insta page switch
 

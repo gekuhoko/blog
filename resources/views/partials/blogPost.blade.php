@@ -13,11 +13,6 @@
     {!! $post->body !!}
 
 </div>
-<hr>
-@if(!session('email'))
-    @include('partials.emailSignup')
-    <hr>
-@endif
 
 {{--
 <!--POSTED COMMENTS-->
