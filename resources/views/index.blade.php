@@ -4,7 +4,7 @@
         <!--BLOG MAINBAR -->
     <div class="main-content col-md-8">
 
-        @if($selectedPost)
+        @if(isset($selectedPost))
             @include('partials.blogPost', ['post' => $selectedPost])
             <hr>
             @if(!session('email'))
@@ -28,9 +28,9 @@
         @include('partials.textWidget')
         @include('partials.authorWidget')
 
-        {{--@include('partials.searchWidget')
-        @include('partials.recentPostsWidget')
-        @include('partials.categoriesWidget')
-        @include('partials.tagsWidget')--}}
+        {{--@include('partials.searchWidget')--}}
+        {{--@include('partials.recentPostsWidget')--}}
+        {{--@include('partials.categoriesWidget')--}}
+        {{--@include('partials.tagsWidget')--}}
     </div>
 @endsection

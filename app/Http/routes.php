@@ -44,7 +44,8 @@ Route::get('{fallback}', 'PageController@fallback');
 
 /* Roadmap:
 
-        Add lazyload + specific post up link + (invisible) view counter + insta page switch
+        preview post
+        insta page switch
 
         Distribution:
         Add preview
