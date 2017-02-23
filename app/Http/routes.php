@@ -24,14 +24,6 @@
     This system is useful for friends as well
 */
 
-Route::get('session', function(){
-    dd(\Session::all());
-});
-
-Route::get('/author', function () {
-    return view('author');
-});
-
 Route::post('/api/push-notification/register', 'PushNotificationController@postRegister');
 Route::get('/api/push-notification/content', 'PushNotificationController@getContent');
 Route::get('/api/push-notification/link', 'PushNotificationController@getLink');
@@ -39,8 +31,11 @@ Route::get('/api/push-notification/worker-script', 'PushNotificationController@g
 Route::get('worker.js', 'PushNotificationController@getWorkerScript');
 
 Route::controller('/api/email', 'EmailController');
-Route::controller('api/picture', 'PictureController');
+Route::controller('/api/picture', 'PictureController');
 
+Route::get('/author', function () {
+    return view('author');
+});
 
 Route::get('/', function () {
     $posts = App\Post::where('type', 'article')

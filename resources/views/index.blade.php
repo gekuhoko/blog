@@ -5,10 +5,6 @@
     <div class="main-content col-md-8">
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
-            @if(!session('email'))
-                @include('partials.emailSignup')
-                <hr>
-            @endif
         @endforeach
     </div>
 

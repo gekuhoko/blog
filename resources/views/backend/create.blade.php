@@ -52,6 +52,8 @@
                         return false;
                     }
 
+                    $(this).prop('disabled', true).html('Loading');
+
                     $.ajax({
                         type: 'POST',
                         url: '{{url('backend/create')}}',

@@ -13,6 +13,27 @@
         <h6 style="font-weight: 300;">{{config('owner.title')}}</h6>
     </div>
     <hr>
+    <div style="margin:auto; text-align: center;">
+        <a href="https://www.whu.edu/en/" target="_blank">
+            <img style="height:75px; width: auto; margin: 35px;" src="/assets/whu.png">
+        </a>
+        <a href="http://www.bm.ust.hk/" target="_blank">
+            <img style="height:75px; width: auto; margin: 35px;" src="/assets/hkust.png">
+        </a>
+        <a href="http://www.novafounders.com/" target="_blank">
+            <img style="height:75px; width: auto; margin: 35px;" src="/assets/nova.png"><BR>
+        </a>
+        <a href="https://edirectinsure.com/" target="_blank">
+            <img style="height:75px; width: auto; margin: 30px;" src="/assets/edirect.png">
+        </a>
+        <a href="https://www.frank.co.th/" target="_blank">
+            <img style="height:75px; width: auto; margin: 30px;" src="/assets/frankth.png">
+        </a>
+        <a href="https://www.frankinsure.com.tw/" target="_blank">
+            <img style="height:75px; width: auto; margin: 50px 30px 30px 30px;" src="/assets/franktw.png">
+        </a>
+    </div>
+    <hr>
     <div style="margin-top:40px;">
         As Senior PHP web developer, I help building <a style="text-decoration: underline" href="https://www.frank.co.th/" target="_blank">Frank.co.th</a> - Thailand's leading online insurance platform initiated by the partners at <a style="text-decoration: underline" href="http://www.novafounders.com" target="_blank">Nova Founders Capital</a>.
         On the side, I run my personal passion project: <a style="text-decoration: underline" href="http://www.TheTrustCall.com" target="_blank">TheTrustCall.com</a>.
@@ -66,22 +87,23 @@
 
         <hr>
         <h4 style="margin-bottom: 1.5em;">Technology for your startup</h4>
-        <img style="padding: 10px;" src="/assets/rsz_2000px-php-logosvg.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" />
-        <img style="padding: 10px;" src="/assets/rsz_1maxresdefault.jpg" alt="Forge" />
-        <img style="padding: 10px;" src="/assets/rsz_rest-api-logo.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_image23.png" alt="VueJs" />
-        <img style="padding: 10px;" src="/assets/rsz_javascript_logo.png" alt="" />
-        <img style="padding: 10px;" src="/assets/jquery_opt.jpg" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_ajax-logo.jpg" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_wordpress-logo-stacked-rgb.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_bootstrap.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_html5_logo_256.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_css3-logo.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_logo-mysql-170x115.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_redis.png" alt="" />
-        <img style="padding: 10px;" src="/assets/rsz_mise-a-jours-demo-linux-inside-3.png" alt="Linux" />
-
+        <div style="margin:auto; text-align: center;">
+            <img style="padding: 25px;" src="/assets/rsz_2000px-php-logosvg.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" />
+            <img style="padding: 25px;" src="/assets/rsz_1maxresdefault.jpg" alt="Forge" />
+            <img style="padding: 25px;" src="/assets/rsz_rest-api-logo.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_image23.png" alt="VueJs" />
+            <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="" />
+            <img style="padding: 25px;" src="/assets/jquery_opt.jpg" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_ajax-logo.jpg" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_wordpress-logo-stacked-rgb.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_bootstrap.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_html5_logo_256.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_css3-logo.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_logo-mysql-170x115.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_redis.png" alt="" />
+            <img style="padding: 25px;" src="/assets/rsz_mise-a-jours-demo-linux-inside-3.png" alt="Linux" />
+        </div>
         <hr>
         <h4 style="margin-bottom: 0.5em;">Need Features? Been there, done that</h4>
         <strong>Content Management</strong><BR>

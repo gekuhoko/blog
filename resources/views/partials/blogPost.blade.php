@@ -1,28 +1,23 @@
-<h2>{!! $post->title !!}</h2>
-<p>{{ $post->formattedCreatedAt() }}</p>
 
-@if($post->image_url)
-    <div {{--class="main-image"--}} style="display: block; max-width: 100%; height: auto;">
-        <img src="{{$post->image_url}}" style="display: block; max-width: 100%; height: auto;">
 
-        {{--<div class="caption-and-link">
-            <div class="caption">
-                <h6 class="animated fadeInUp">Share</h6>
-            </div>
-            <div class="links animated fadeInUp delay0-2s">
-                <!--LINKS-->
-                <a href="" target="_blank">Facebook</a>
-                <a href="" target="_blank">Twitter</a>
-            </div>
-        </div>
-        --}}
-    </div>
-@endif
 
-{!! $post->body !!}
 
+
+<div class="post">
+
+    @if($post->masterPictureUrl())
+        <img src="{{$post->masterPictureUrl()}}" style="width:100%; height:auto;">
+    @endif
+    <h2>{!! $post->title !!}</h2>
+    <p><i>{{ $post->formattedCreatedAt() }}</i></p>
+    {!! $post->body !!}
+
+</div>
 <hr>
-
+@if(!session('email'))
+    @include('partials.emailSignup')
+    <hr>
+@endif
 
 {{--
 <!--POSTED COMMENTS-->
