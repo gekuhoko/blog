@@ -36,7 +36,7 @@
     <hr>
     <div style="margin-top:40px;">
         As Senior PHP web developer, I help building <a style="text-decoration: underline" href="https://www.frank.co.th/" target="_blank">Frank.co.th</a> - Thailand's leading online insurance platform initiated by the partners at <a style="text-decoration: underline" href="http://www.novafounders.com" target="_blank">Nova Founders Capital</a>.
-        On the side, I run my personal passion project: <a style="text-decoration: underline" href="http://www.TheTrustCall.com" target="_blank">TheTrustCall.com</a>.
+        On the side, I run my personal passion project: <a style="text-decoration: underline" href="http://www.TheTrustCall.com" target="_blank">TheTrustCall.com</a>.<BR><BR>
         I help internet companies turn ideas into real web applications.
         If you need technical expertise for your project - feel free to email.
         I do freelance work and look forward to hearing about your project: <a style="text-decoration: underline" title="kuschnik.gerhard@gmail.com" href="mailto:kuschnik.gerhard@gmail.com">kuschnik.gerhard@gmail.com</a>

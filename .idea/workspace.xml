@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11c8f0b-9a8a-4c62-b34e-ce2e3c7f06f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/edirect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/frankth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/franktw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/hkust.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/15/VCpWzdfWMfJk4wdx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/15/rldDHoTkO6IMq7DL.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/20/zUdw4hBM1olpxy5S.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/22/4yhkrEHZ22UsZC20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/23/7A6cgqZsXvmjFfI9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/nova.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/whu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author.blade.php" afterPath="$PROJECT_DIR$/resources/views/author.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/blogPost.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/blogPost.blade.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +39,8 @@
       <file leaf-file-name="author.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/author.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56962025">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.70253164">
+              <caret line="38" column="174" selection-start-line="38" selection-start-column="174" selection-end-line="38" selection-end-column="174" />
               <folding>
                 <element signature="e#573#613#0#HTML" expanded="true" />
                 <element signature="e#691#738#0#HTML" expanded="true" />
@@ -67,23 +49,23 @@
                 <element signature="e#1184#1231#0#HTML" expanded="true" />
                 <element signature="e#1349#1396#0#HTML" expanded="true" />
                 <element signature="e#1521#1583#0#HTML" expanded="true" />
-                <element signature="e#6385#6414#0#HTML" expanded="true" />
-                <element signature="e#6461#6501#0#HTML" expanded="true" />
-                <element signature="e#6520#6542#0#HTML" expanded="true" />
-                <element signature="e#6611#6633#0#HTML" expanded="true" />
-                <element signature="e#6723#6745#0#HTML" expanded="true" />
-                <element signature="e#6815#6837#0#HTML" expanded="true" />
-                <element signature="e#6901#6923#0#HTML" expanded="true" />
-                <element signature="e#6986#7008#0#HTML" expanded="true" />
-                <element signature="e#7074#7096#0#HTML" expanded="true" />
-                <element signature="e#7153#7175#0#HTML" expanded="true" />
-                <element signature="e#7235#7257#0#HTML" expanded="true" />
-                <element signature="e#7334#7356#0#HTML" expanded="true" />
-                <element signature="e#7416#7438#0#HTML" expanded="true" />
-                <element signature="e#7503#7525#0#HTML" expanded="true" />
-                <element signature="e#7585#7607#0#HTML" expanded="true" />
-                <element signature="e#7676#7698#0#HTML" expanded="true" />
-                <element signature="e#7754#7776#0#HTML" expanded="true" />
+                <element signature="e#6393#6422#0#HTML" expanded="true" />
+                <element signature="e#6469#6509#0#HTML" expanded="true" />
+                <element signature="e#6528#6550#0#HTML" expanded="true" />
+                <element signature="e#6619#6641#0#HTML" expanded="true" />
+                <element signature="e#6731#6753#0#HTML" expanded="true" />
+                <element signature="e#6823#6845#0#HTML" expanded="true" />
+                <element signature="e#6909#6931#0#HTML" expanded="true" />
+                <element signature="e#6994#7016#0#HTML" expanded="true" />
+                <element signature="e#7082#7104#0#HTML" expanded="true" />
+                <element signature="e#7161#7183#0#HTML" expanded="true" />
+                <element signature="e#7243#7265#0#HTML" expanded="true" />
+                <element signature="e#7342#7364#0#HTML" expanded="true" />
+                <element signature="e#7424#7446#0#HTML" expanded="true" />
+                <element signature="e#7511#7533#0#HTML" expanded="true" />
+                <element signature="e#7593#7615#0#HTML" expanded="true" />
+                <element signature="e#7684#7706#0#HTML" expanded="true" />
+                <element signature="e#7762#7784#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -787,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/author.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56962025">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.70253164">
+          <caret line="38" column="174" selection-start-line="38" selection-start-column="174" selection-end-line="38" selection-end-column="174" />
           <folding>
             <element signature="e#573#613#0#HTML" expanded="true" />
             <element signature="e#691#738#0#HTML" expanded="true" />
@@ -797,23 +779,23 @@
             <element signature="e#1184#1231#0#HTML" expanded="true" />
             <element signature="e#1349#1396#0#HTML" expanded="true" />
             <element signature="e#1521#1583#0#HTML" expanded="true" />
-            <element signature="e#6385#6414#0#HTML" expanded="true" />
-            <element signature="e#6461#6501#0#HTML" expanded="true" />
-            <element signature="e#6520#6542#0#HTML" expanded="true" />
-            <element signature="e#6611#6633#0#HTML" expanded="true" />
-            <element signature="e#6723#6745#0#HTML" expanded="true" />
-            <element signature="e#6815#6837#0#HTML" expanded="true" />
-            <element signature="e#6901#6923#0#HTML" expanded="true" />
-            <element signature="e#6986#7008#0#HTML" expanded="true" />
-            <element signature="e#7074#7096#0#HTML" expanded="true" />
-            <element signature="e#7153#7175#0#HTML" expanded="true" />
-            <element signature="e#7235#7257#0#HTML" expanded="true" />
-            <element signature="e#7334#7356#0#HTML" expanded="true" />
-            <element signature="e#7416#7438#0#HTML" expanded="true" />
-            <element signature="e#7503#7525#0#HTML" expanded="true" />
-            <element signature="e#7585#7607#0#HTML" expanded="true" />
-            <element signature="e#7676#7698#0#HTML" expanded="true" />
-            <element signature="e#7754#7776#0#HTML" expanded="true" />
+            <element signature="e#6393#6422#0#HTML" expanded="true" />
+            <element signature="e#6469#6509#0#HTML" expanded="true" />
+            <element signature="e#6528#6550#0#HTML" expanded="true" />
+            <element signature="e#6619#6641#0#HTML" expanded="true" />
+            <element signature="e#6731#6753#0#HTML" expanded="true" />
+            <element signature="e#6823#6845#0#HTML" expanded="true" />
+            <element signature="e#6909#6931#0#HTML" expanded="true" />
+            <element signature="e#6994#7016#0#HTML" expanded="true" />
+            <element signature="e#7082#7104#0#HTML" expanded="true" />
+            <element signature="e#7161#7183#0#HTML" expanded="true" />
+            <element signature="e#7243#7265#0#HTML" expanded="true" />
+            <element signature="e#7342#7364#0#HTML" expanded="true" />
+            <element signature="e#7424#7446#0#HTML" expanded="true" />
+            <element signature="e#7511#7533#0#HTML" expanded="true" />
+            <element signature="e#7593#7615#0#HTML" expanded="true" />
+            <element signature="e#7684#7706#0#HTML" expanded="true" />
+            <element signature="e#7762#7784#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
