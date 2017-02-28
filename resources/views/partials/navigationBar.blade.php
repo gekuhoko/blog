@@ -8,7 +8,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="/author" style="font-weight:200; font-size:20px;">{{config('owner.name')}} >></a> <a class="hidden-xs navbar-brand page-scroll" href="/" style="margin-top:5px; font-size:11px">{{config('owner.title')}}</a>
+            @if(strpos(Request::path(), 'blog') !== false)
+                <a class="navbar-brand page-scroll" href="/" style="font-weight:200; font-size:20px;">{{config('owner.name')}} >></a>
+                <a class="hidden-xs navbar-brand page-scroll" href="/" style="margin-top:5px; font-size:11px">{{config('owner.title')}}</a>
+            @else
+                <a class="navbar-brand page-scroll" href="/blog" style="font-weight:200; font-size:20px;">{{config('owner.name')}} >></a>
+                <a class="hidden-xs navbar-brand page-scroll" href="/blog" style="margin-top:5px; font-size:11px">{{config('owner.title')}}</a>
+            @endif
+
         </div>
         <!--COLLECT THE NAV LINKS, FORMS, AND OTHER CONTENT FOR TOGGLING-->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
