@@ -44,15 +44,19 @@ Route::get('{fallback}', 'PageController@fallback');
 
 /* Roadmap:
 
+    WEDNESDAY
+    Fix push notification allowance
     Make a nice contact me
-    Make insta page switches & background ajax inject
-    Test the push notification signup
     Remove email signup, replace with about author
+
+    THURSDAY
     Write cool PPC ads
     Put PPC ads online
+
+    FRIDAY
     Write about technology stack
 
-
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
     preview post
 

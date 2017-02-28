@@ -3,6 +3,31 @@
     <head>
         <title>{{config('owner.name')}}</title>
 
+        <!-- ////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Note : The code of this website is written with PHP Laravel from scratch -->
+        <!-- You can check out its code at https://github.com/gekuhoko/blog -->
+        <!-- Want to see the code of the more complex web applications I have written?-->
+        <!-- Feel free to drop me an email
+
+            ╭──────────────────────────────────────────────────╮
+            │ Senior Web Developer for Startups in Hong Kong   │
+            ╞══════════════════════════════════════════════════╡
+            │                                                  │
+            │ Gerhard Kuschnik                                 │
+            ├───────────┬──────────────────────────────────────┤
+            │ Email     │ kuschnik.gerhard@gmail.com           │
+            ├───────────┼──────────────────────────────────────┤
+            │ LinkedIn  │ hk.linkedin.com/in/gerhardkuschnik   │
+            ├───────────┼──────────────────────────────────────┤
+            │ Twitter   │ https://twitter.com/GerhardKuschnik  │
+            ├───────────┼──────────────────────────────────────┤
+            │ AngelList │ https://angel.co/gerhard-kuschnik-1  │
+            ├───────────┼──────────────────────────────────────┤
+            │ Location  │ Hong Kong                            │
+            ╰───────────┴──────────────────────────────────────╯
+
+        <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
