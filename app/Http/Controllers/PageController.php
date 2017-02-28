@@ -9,15 +9,15 @@ class PageController extends Controller
 {
     public function getIndex()
     {
+        return view('author');
+    }
+
+    public function getBlog()
+    {
         $posts = Post::where('type', 'article')
             ->orderBy('created_at', 'DESC')
             ->get();
-        return view('index', compact('posts'));
-    }
-
-    public function getAuthor()
-    {
-        return view('author');
+        return view('blog', compact('posts'));
     }
 
     public function fallback($value)
@@ -29,7 +29,7 @@ class PageController extends Controller
                 ->where('id', '!=', $selectedPost->id)
                 ->get();
 
-            return view('index', compact('posts', 'selectedPost'));
+            return view('blog', compact('posts', 'selectedPost'));
         }
 
         return redirect('/');

@@ -8,20 +8,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
-            @if(strpos(Request::path(), 'author') !== false)
-                <a class="navbar-brand page-scroll" href="/" style="font-size:20px">{{config('owner.name')}}</a> <a class="hidden-xs navbar-brand page-scroll" href="/" style="margin-top:5px; font-size:11px">{{config('owner.title')}}</a>
-            @else
-                <a class="navbar-brand page-scroll" href="/author" style="font-weight:200; font-size:20px;">{{config('owner.name')}} >></a> <a class="hidden-xs navbar-brand page-scroll" href="/" style="margin-top:5px; font-size:11px">{{config('owner.title')}}</a>
-            @endif
+            <a class="navbar-brand page-scroll" href="/author" style="font-weight:200; font-size:20px;">{{config('owner.name')}} >></a> <a class="hidden-xs navbar-brand page-scroll" href="/" style="margin-top:5px; font-size:11px">{{config('owner.title')}}</a>
         </div>
         <!--COLLECT THE NAV LINKS, FORMS, AND OTHER CONTENT FOR TOGGLING-->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                @if(strpos(Request::path(), 'author') !== false)
-                    <li><a class="page-scroll" href="/">Read</a></li>
+                @if(strpos(Request::path(), 'blog') !== false)
+                    <li><a class="page-scroll" href="/">{{config('owner.name')}}'s Profile</a></li>
                 @else
-                    <li><a class="page-scroll" href="/author">About {{config('owner.name')}}</a></li>
+                    <li><a class="page-scroll" href="/blog">Blog</a></li>
                 @endif
             </ul>
         </div>

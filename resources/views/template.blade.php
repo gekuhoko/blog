@@ -12,10 +12,14 @@
         <!--VENDOR STYLESHEET-->
         <link rel="stylesheet" href="/assets/bootstrap.css">
         <link rel="stylesheet" href="/assets/animate.css">
+        <link rel="stylesheet" href="/assets/font-awesome.min.css">
 
         <!--MAIN STYLESHEET-->
         <link rel="stylesheet" href="/assets/application.css">
         <link id="switch_style" rel="stylesheet" href="/assets/blue.css">
+
+        <!--VENDOR JS -->
+        <script src="/assets/js/wow.min.js"></script>
 
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -25,18 +29,20 @@
     </head>
 
     <body>
-        @include('partials.googleAnalytics')
-        @include('partials.navigationBar')
+        <div id="total_wrapper" style="display:none;">
+            @include('partials.googleAnalytics')
+            @include('partials.navigationBar')
 
-        <main>
-            <div class="container" style="overflow: hidden;">
-                <div class="row">
-                    @yield('content')
+            <main>
+                <div class="container" style="overflow: hidden;">
+                    <div class="row">
+                        @yield('content')
+                    </div>
                 </div>
-            </div>
-        </main>
+            </main>
 
-        @include('partials.footer')
+            @include('partials.footer')
+        </div>
 
         <script src="/assets/jquery-2.2.4.min.js"></script>
         <script src="/assets/jquery.easing.min.js"></script>
@@ -53,6 +59,10 @@
         @endif
 
         @stack('scriptPush')
+
+        <script>
+            $('#total_wrapper').fadeIn(4000);
+        </script>
 
     </body>
 </html>

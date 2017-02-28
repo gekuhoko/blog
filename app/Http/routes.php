@@ -37,36 +37,46 @@ Route::controller('api/push-notification', 'PushNotificationController');
 //Route::controller('/', 'PageController');
 
 Route::get('/', 'PageController@getIndex');
-Route::get('author', 'PageController@getAuthor');
+Route::get('blog', 'PageController@getBlog');
 Route::get('{fallback}', 'PageController@fallback');
 
 
 
 /* Roadmap:
 
-        preview post
-        insta page switch
 
-        Distribution:
-        Add preview
-        Add article link
-        IG Autopost
-        Facebook Autopost
+    Make a nice contact me
+    Make insta page switches & background ajax inject
+    Test the push notification signup
+    Remove email signup, replace with about author
+    Write cool PPC ads
+    Put PPC ads online
+    Write about technology stack
 
-        Add preview to post creation
 
-        Automatic distribution
-        8. FB Post
-        9. LI Post
-        10. IG Post
-        11. YT Post
-        12. Podcast / Audio
-        13...?
 
-        Add SMS signup + random switch + unsubscribe
+    preview post
 
-        BI
-        ...
+    Distribution:
+    Add preview
+    Add article link
+    IG Autopost
+    Facebook Autopost
 
-        Virality with sharing links
+    Add preview to post creation
+
+    Automatic distribution
+    8. FB Post
+    9. LI Post
+    10. IG Post
+    11. YT Post
+    12. Podcast / Audio
+    13...?
+
+    Add SMS signup + random switch + unsubscribe
+
+    BI
+    ...
+
+    Virality with sharing links
 */
