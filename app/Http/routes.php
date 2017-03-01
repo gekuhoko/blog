@@ -46,8 +46,6 @@ Route::get('{fallback}', 'PageController@fallback');
 /* Roadmap:
 
     WEDNESDAY
-
-    Fix push notification allowance
     Make a nice contact me
     Remove email signup, replace with about author
 

@@ -7,19 +7,25 @@
         @if(isset($selectedPost))
             @include('partials.blogPost', ['post' => $selectedPost])
             <hr>
+            @include('partials.authorPanel')
+            {{--
             @if(!session('email'))
                 @include('partials.emailSignup')
                 <hr>
             @endif
+            --}}
         @endif
 
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
             <hr>
+            @include('partials.authorPanel')
+            {{--
             @if(!session('email'))
                 @include('partials.emailSignup')
                 <hr>
             @endif
+            --}}
         @endforeach
     </div>
 
