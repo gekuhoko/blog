@@ -50,6 +50,14 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="manifest" href="/manifest.json">
 
+        <style>
+            @media(max-width:414px){
+                .center-text-if-mobile{
+                    text-align:center
+                }
+            }
+        </style>
+
         @stack('headPush')
     </head>
 

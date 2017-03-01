@@ -12,8 +12,8 @@
 
 <div style="margin-top: 60px; padding:40px; background-image: url(/assets/wallpaper.jpg); background-size:100%;">
     <img src="assets/author_square.jpg" style="border-radius: 1000px; margin: 30px auto; display:block; max-width: 80%; border: 4px solid white;">
-    <h5 style="color: white; font-weight: 500;">{{config('owner.name')}}</h5>
-    <h4 style="color: white; font-weight: 600; margin-bottom: 0; text-shadow:-1px -1px 0 #000,  1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">{{config('owner.title')}}</h4>
+    <h5 class="center-text-if-mobile" style="color: white; font-weight: 500;">{{config('owner.name')}}</h5>
+    <h4 class="center-text-if-mobile" style="color: white; font-weight: 600; margin-bottom: 0; text-shadow:-1px -1px 0 #000,  1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">{{config('owner.title')}}</h4>
 </div>
 <div class="row">
     <div class="col-md-2"></div>
