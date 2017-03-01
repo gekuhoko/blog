@@ -33,7 +33,7 @@ Route::group([
 Route::controller('api/email', 'EmailController');
 Route::controller('api/picture', 'PictureController');
 Route::controller('api/push-notification', 'PushNotificationController');
-Route::get('worker.js', 'PushNotificationController@getWorkerScript');
+Route::controller('push-notification', 'PushNotificationController');
 
 //Route::controller('/', 'PageController');
 
