@@ -46,8 +46,7 @@ Route::get('{fallback}', 'PageController@fallback');
 /* Roadmap:
 
     WEDNESDAY
-    Make a nice contact me
-    Remove email signup, replace with about author
+        Make a nice contact me
 
     THURSDAY
     Check Google analytics

@@ -98,5 +98,6 @@
             $('#total_wrapper').fadeIn(4000);
         </script>
 
+        @stack('modal')
     </body>
 </html>
