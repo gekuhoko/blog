@@ -116,7 +116,7 @@
             </div>
 
             <h4 style="margin-top:70px; margin-bottom: 0.25em;">Need Features?</h4>
-            <h5 style="margin-bottom: 1.25em; font-weight:200;">Been there, done that</h5>
+            <h5 style="margin-bottom: 1.25em; font-weight:400;">Been there, done that</h5>
             <strong>Content Management</strong><BR>
             - Article creation with visual editor<BR>
             - Image upload and processing<BR>
