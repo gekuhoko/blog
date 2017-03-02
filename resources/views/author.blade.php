@@ -96,8 +96,7 @@
                 <a style="text-decoration: underline" title="Twitter" href="https://angel.co/gerhard-kuschnik-1" target="_blank">Angel List</a>
             </div>
 
-            <hr>
-            <h4 style="margin-bottom: 1.5em;">Technology for your startup</h4>
+            <h4 style="margin-top:70px; margin-bottom: 1.5em;">Technology for your startup</h4>
             <div style="margin:auto; text-align: center;">
                 <img style="padding: 25px;" src="/assets/rsz_2000px-php-logosvg.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" />
@@ -115,8 +114,8 @@
                 <img style="padding: 25px;" src="/assets/rsz_redis.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_mise-a-jours-demo-linux-inside-3.png" alt="Linux" />
             </div>
-            <hr>
-            <h4 style="margin-bottom: 0.25em;">Need Features?</h4>
+
+            <h4 style="margin-top:70px; margin-bottom: 0.25em;">Need Features?</h4>
             <h5 style="margin-bottom: 1.25em; font-weight:200;">Been there, done that</h5>
             <strong>Content Management</strong><BR>
             - Article creation with visual editor<BR>
