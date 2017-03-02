@@ -92,12 +92,12 @@
             @include('partials.emailScript')
         @endif
 
-        @stack('scriptPush')
-
         <script>
             $('#total_wrapper').fadeIn(4000);
         </script>
 
         @stack('modal')
+
+        @stack('scriptPush')
     </body>
 </html>

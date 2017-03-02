@@ -45,13 +45,11 @@ Route::get('{fallback}', 'PageController@fallback');
 
 /* Roadmap:
 
-    WEDNESDAY
-        Make a nice contact me
-
     THURSDAY
-    Check Google analytics
-    Write cool PPC ads
-    Put PPC ads online
+        Make contact me form work
+        Check Google analytics
+        Write cool PPC ads
+        Put PPC ads online
 
     FRIDAY
     Write about technology stack
