@@ -99,14 +99,14 @@
             <h4 style="margin-top:70px; margin-bottom: 1.5em;">Technology for your startup</h4>
             <div style="margin:auto; text-align: center;">
                 <img style="padding: 25px;" src="/assets/rsz_2000px-php-logosvg.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" />
-                <img style="padding: 25px;" src="/assets/rsz_1screenshot_from_2017-03-09_085600.png" alt="TypeScript" />
+                <img style="padding: 25px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" /
+                <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_react.png" alt="ReactJS" />
+                <img style="padding: 25px;" src="/assets/rsz_1screenshot_from_2017-03-09_085600.png" alt="TypeScript" />
                 <img style="padding: 25px;" src="/assets/rsz_1polymer.png" alt="PolymerJs" />
+                <img style="padding: 25px;" src="/assets/rsz_image23.png" alt="VueJs" />
                 <img style="padding: 25px;" src="/assets/rsz_1maxresdefault.jpg" alt="Forge" />
                 <img style="padding: 25px;" src="/assets/rsz_rest-api-logo.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_image23.png" alt="VueJs" />
-                <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="" />
                 <img style="padding: 25px;" src="/assets/jquery_opt.jpg" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_ajax-logo.jpg" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_wordpress-logo-stacked-rgb.png" alt="" />

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11c8f0b-9a8a-4c62-b34e-ce2e3c7f06f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author.blade.php" afterPath="$PROJECT_DIR$/resources/views/author.blade.php" />
     </list>
     <ignored path="blog.iws" />
@@ -39,9 +37,13 @@
       <file leaf-file-name="author.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/author.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2831424">
-              <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
-              <folding />
+            <state vertical-scroll-proportion="0.7446808">
+              <caret line="113" column="88" selection-start-line="113" selection-start-column="88" selection-end-line="113" selection-end-column="88" />
+              <folding>
+                <element signature="e#6261#6283#0#HTML" expanded="true" />
+                <element signature="e#6350#6372#0#HTML" expanded="true" />
+                <element signature="e#6471#6493#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -770,9 +772,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/author.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2831424">
-          <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
-          <folding />
+        <state vertical-scroll-proportion="0.7446808">
+          <caret line="113" column="88" selection-start-line="113" selection-start-column="88" selection-end-line="113" selection-end-column="88" />
+          <folding>
+            <element signature="e#6261#6283#0#HTML" expanded="true" />
+            <element signature="e#6350#6372#0#HTML" expanded="true" />
+            <element signature="e#6471#6493#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
