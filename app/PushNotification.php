@@ -18,6 +18,7 @@ class PushNotification extends Model
 
     public static function send ($device, $title, $body, $icon, $link)
     {
+
         // persist push notification
         $pushNotification = new PushNotification;
         $pushNotification->user = 1;
@@ -45,8 +46,6 @@ class PushNotification extends Model
 
         $result[] = curl_exec($ch);
         curl_close($ch);
-
-        var_dump($result);
 
         return $result;
     }

@@ -42,14 +42,7 @@ class BackendController extends Controller
 
         if ($post->save()){
             $result = ['result' => true];
-
-            // send out push notifications
-            $devices = MobileDevice::all();
-            foreach($devices as $device){
-                PushNotification::send($device, config('owner.name'), $data['title'], $icon, $link);
-            }
-
-            // send out emails
+            $this->sendPushNotifications($data, $icon, $link);
             Email::sendToAll();
         }
 
@@ -88,5 +81,18 @@ class BackendController extends Controller
         }
 
         return redirect('/backend');
+    }
+
+    /**
+     * @param $data
+     * @param $icon
+     * @param $link
+     */
+    private function sendPushNotifications($data, $icon, $link)
+    {
+        $devices = MobileDevice::all();
+        foreach ($devices as $device) {
+            PushNotification::send($device, config('owner.name'), $data['title'], $icon, $link);
+        }
     }
 }

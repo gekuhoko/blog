@@ -9,15 +9,15 @@ class PageController extends Controller
 {
     public function getIndex()
     {
-        return view('author');
-    }
-
-    public function getBlog()
-    {
         $posts = Post::where('type', 'article')
             ->orderBy('created_at', 'DESC')
             ->get();
         return view('blog', compact('posts'));
+    }
+
+    public function getBlog()
+    {
+        return view('author');
     }
 
     public function fallback($value)

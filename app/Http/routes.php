@@ -1,5 +1,4 @@
 <?php
-
 /*
     why this project?
         I want to build a system that allows free creators build a following
