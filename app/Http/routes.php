@@ -34,6 +34,7 @@ Route::controller('api/email', 'EmailController');
 Route::controller('api/picture', 'PictureController');
 Route::controller('api/push-notification', 'PushNotificationController');
 Route::controller('push-notification', 'PushNotificationController');
+Route::get('worker.js', 'PushNotificationController@getWorkerScript');
 
 //Route::controller('/', 'PageController');
 
@@ -44,14 +45,29 @@ Route::get('{fallback}', 'PageController@fallback');
 
 
 /* Roadmap:
+    Web push fix
+    Google analytics prepare
+    Landing page should be blog
+    Posts only have soft deletion
+    Send web push not on publish but on extra send button (because want to preview first)
 
-    THURSDAY
-        Make contact me form work
-        Check Google analytics
+
+
+
+
+
+
+
+
+
+
+
+
         Write cool PPC ads
         Put PPC ads online
+        Make contact me form work
+        Check Google analytics
 
-    FRIDAY
     Write about technology stack
 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
