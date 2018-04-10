@@ -28,14 +28,6 @@ Route::get('{fallback}', 'PageController@fallback');
             - tactics (dirt)
 
 Next items
-    CODE FIRST
-
-
-        - Integrate BugSnag
-
-        - Decouple creation from push sending
-        - Soft deletion of posts with confirm button
-        - add article link to backend
 
     WRITE
 
@@ -43,8 +35,13 @@ Next items
         - improve contact form
             - also send SMS / push notification to me
             - also add phone for them (so i can call)
-        - Add scheduled publishing and reminder for me to write
+
+        - Add scheduled publishing
+            "published at" setter with hiding in frontend
+
         - Add share-bar like in financial samurai
+            add article link to backend
+
         - Add signup via email / sms
         - Check SEO improvements
 

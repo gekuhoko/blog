@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
@@ -37,13 +38,8 @@ class BackendController extends Controller
         $post->type = 'article';
         $post->slug = Post::slug($data['title']);
 
-        $link = url('/');
-        $icon = url('/icon-192.png');
-
         if ($post->save()){
             $result = ['result' => true];
-            $this->sendPushNotifications($data, $icon, $link);
-            Email::sendToAll();
         }
 
         return $result;
@@ -73,7 +69,7 @@ class BackendController extends Controller
         return $result;
     }
 
-    public function getDelete($id)
+    public function postDelete($id)
     {
         $post = Post::find($id);
         if ($post){
@@ -83,16 +79,21 @@ class BackendController extends Controller
         return redirect('/backend');
     }
 
-    /**
-     * @param $data
-     * @param $icon
-     * @param $link
-     */
-    private function sendPushNotifications($data, $icon, $link)
+    public function postNotify($postId)
     {
+        $post = Post::find($postId);
+        $post->notified_at = Carbon::now();
+        $post->save();
+
+        $link = url('/');
+        $icon = url('/icon-192.png');
         $devices = MobileDevice::all();
         foreach ($devices as $device) {
-            PushNotification::send($device, config('owner.name'), $data['title'], $icon, $link);
+            PushNotification::send($device, config('owner.name'), $post->title, $icon, $link);
         }
+
+        Email::sendToAll($postId);
+
+        return ['result' => true];
     }
 }

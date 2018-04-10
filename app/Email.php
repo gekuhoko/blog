@@ -7,11 +7,10 @@ use Illuminate\Support\Facades\Mail;
 
 class Email extends Model
 {
-    public static function sendToAll()
+    public static function sendToAll($postId)
     {
         $emails = Email::all();
-
-        $post = Post::latestItem();
+        $post = Post::find($postId);
 
         $content = 'Hi,
 

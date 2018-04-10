@@ -8,6 +8,8 @@ use App\Picture;
 
 class Post extends Model
 {
+
+
     public function formattedCreatedAt()
     {
         $time = new Carbon($this->created_at);
