@@ -2,405 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11c8f0b-9a8a-4c62-b34e-ce2e3c7f06f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" afterPath="$PROJECT_DIR$/.idea/blog.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/action_set_name" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/creator_uid" afterPath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/creator_uid" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/id" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/blog/virtualbox/index_uuid" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/action_set_name" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/creator_uid" afterPath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/creator_uid" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/id" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/blogname/virtualbox/index_uuid" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/Email.php" afterPath="$PROJECT_DIR$/app/Email.php" />
-      <change beforePath="$PROJECT_DIR$/app/Events/Event.php" afterPath="$PROJECT_DIR$/app/Events/Event.php" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmailController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmailController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PictureController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PictureController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PushNotificationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PushNotificationController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
       <change beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/Job.php" afterPath="$PROJECT_DIR$/app/Jobs/Job.php" />
-      <change beforePath="$PROJECT_DIR$/app/Listeners/.gitkeep" afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/app/MobileDevice.php" afterPath="$PROJECT_DIR$/app/MobileDevice.php" />
-      <change beforePath="$PROJECT_DIR$/app/Picture.php" afterPath="$PROJECT_DIR$/app/Picture.php" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/.gitkeep" afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/PushNotification.php" afterPath="$PROJECT_DIR$/app/PushNotification.php" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
-      <change beforePath="$PROJECT_DIR$/config/compile.php" afterPath="$PROJECT_DIR$/config/compile.php" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change beforePath="$PROJECT_DIR$/config/image.php" afterPath="$PROJECT_DIR$/config/image.php" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
-      <change beforePath="$PROJECT_DIR$/config/owner.php" afterPath="$PROJECT_DIR$/config/owner.php" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
-      <change beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2016_12_12_014108_create_posts_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_12_12_014108_create_posts_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2016_12_15_184600_create_push_notifications_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_12_15_184600_create_push_notifications_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2016_12_15_184900_create_mobile_devices_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_12_15_184900_create_mobile_devices_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2016_12_15_185000_add_timestamps_to_mobile_devices_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_12_15_185000_add_timestamps_to_mobile_devices_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_02_15_182100_create_emails_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_02_15_182100_create_emails_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_02_17_184539_add_pictures_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_02_17_184539_add_pictures_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_02_23_171731_add_slug_to_posts_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_02_23_171731_add_slug_to_posts_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/public/assets/1.jpg" afterPath="$PROJECT_DIR$/public/assets/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/animate.css" afterPath="$PROJECT_DIR$/public/assets/animate.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/author.jpg" afterPath="$PROJECT_DIR$/public/assets/author.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/author.png" afterPath="$PROJECT_DIR$/public/assets/author.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/author_square.jpg" afterPath="$PROJECT_DIR$/public/assets/author_square.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/blue.css" afterPath="$PROJECT_DIR$/public/assets/blue.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap.css" afterPath="$PROJECT_DIR$/public/assets/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/assets/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css" afterPath="$PROJECT_DIR$/public/assets/css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/edirect.png" afterPath="$PROJECT_DIR$/public/assets/edirect.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/assets/font-awesome.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/frankth.png" afterPath="$PROJECT_DIR$/public/assets/frankth.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/franktw.png" afterPath="$PROJECT_DIR$/public/assets/franktw.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/hkust.png" afterPath="$PROJECT_DIR$/public/assets/hkust.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/15/5bHY7yUiQ6yod6qF.jpg" afterPath="$PROJECT_DIR$/public/assets/img/15/5bHY7yUiQ6yod6qF.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/15/99LAkl3RTSFfnT4H.jpg" afterPath="$PROJECT_DIR$/public/assets/img/15/99LAkl3RTSFfnT4H.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/15/VCpWzdfWMfJk4wdx.jpg" afterPath="$PROJECT_DIR$/public/assets/img/15/VCpWzdfWMfJk4wdx.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/15/k0s1bn9GBrfLndqJ.jpg" afterPath="$PROJECT_DIR$/public/assets/img/15/k0s1bn9GBrfLndqJ.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/15/rldDHoTkO6IMq7DL.jpg" afterPath="$PROJECT_DIR$/public/assets/img/15/rldDHoTkO6IMq7DL.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/20/zUdw4hBM1olpxy5S.jpg" afterPath="$PROJECT_DIR$/public/assets/img/20/zUdw4hBM1olpxy5S.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/22/4yhkrEHZ22UsZC20.jpg" afterPath="$PROJECT_DIR$/public/assets/img/22/4yhkrEHZ22UsZC20.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/23/7A6cgqZsXvmjFfI9.jpg" afterPath="$PROJECT_DIR$/public/assets/img/23/7A6cgqZsXvmjFfI9.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/internet" afterPath="$PROJECT_DIR$/public/assets/internet" />
-      <change beforePath="$PROJECT_DIR$/public/assets/ionicons.min.css" afterPath="$PROJECT_DIR$/public/assets/ionicons.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/james" afterPath="$PROJECT_DIR$/public/assets/james" />
-      <change beforePath="$PROJECT_DIR$/public/assets/john" afterPath="$PROJECT_DIR$/public/assets/john" />
-      <change beforePath="$PROJECT_DIR$/public/assets/jquery-2.2.4.min.js" afterPath="$PROJECT_DIR$/public/assets/jquery-2.2.4.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/jquery.easing.min.js" afterPath="$PROJECT_DIR$/public/assets/jquery.easing.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/jquery_opt.jpg" afterPath="$PROJECT_DIR$/public/assets/jquery_opt.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js.js" afterPath="$PROJECT_DIR$/public/assets/js.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/jquery.tinymce.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/jquery.tinymce.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/langs/readme.md" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/license.txt" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/license.txt" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/advlist/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/anchor/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/autolink/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/autoresize/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/autosave/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/bbcode/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/code/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/colorpicker/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/directionality/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/emoticons/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/example/dialog.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/example/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/fullpage/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/hr/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/image/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/imagetools/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/importcss/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/.gitattributes" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/.gitattributes" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/.gitignore" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/.htaccess" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/autoload.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/config.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/config.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/constants.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/constants.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/database.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/database.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/doctypes.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/doctypes.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/foreign_chars.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/foreign_chars.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/hooks.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/hooks.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/migration.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/migration.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/mimes.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/mimes.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/profiler.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/profiler.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/routes.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/routes.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/smileys.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/smileys.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/uploader_settings.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/uploader_settings.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/user_agents.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/config/user_agents.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/controllers/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/controllers/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/controllers/uploader.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/controllers/uploader.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_404.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_404.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_db.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_db.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_general.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_general.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_php.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/error_php.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/errors/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/helpers/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/helpers/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/helpers/jbimages_helper.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/helpers/jbimages_helper.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/english/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/english/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/english/jbstrings_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/english/jbstrings_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/imglib_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/imglib_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/jbstrings_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/jbstrings_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/upload_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/french/upload_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/imglib_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/imglib_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/jbstrings_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/jbstrings_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/upload_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/language/russian/upload_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/views/ajax_upload_result.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/views/ajax_upload_result.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/views/blank.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/views/blank.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/views/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/application/views/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/index.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/index.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/.htaccess" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Benchmark.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Benchmark.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/CodeIgniter.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/CodeIgniter.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Common.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Common.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Config.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Config.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Controller.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Controller.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Exceptions.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Exceptions.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Hooks.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Hooks.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Input.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Input.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Loader.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Loader.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Model.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Model.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Output.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Output.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Router.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Router.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Security.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Security.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/URI.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/URI.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Utf8.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/Utf8.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/core/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/helpers/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/helpers/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/helpers/language_helper.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/helpers/language_helper.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/english/imglib_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/english/imglib_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/english/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/english/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/english/upload_lang.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/english/upload_lang.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/language/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/libraries/Image_lib.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/libraries/Image_lib.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/libraries/Upload.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/libraries/Upload.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/libraries/index.html" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/ci/system/libraries/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/config.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/config.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/css/dialog-v4.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/css/dialog-v4.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/css/dialog.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/css/dialog.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/dialog-v4.htm" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/dialog-v4.htm" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/dialog.htm" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/dialog.htm" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/editor_plugin.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/editor_plugin.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/editor_plugin_src.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/editor_plugin_src.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/img/jbimages-bw.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/img/jbimages-bw.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/img/spinner.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/img/spinner.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/is_allowed.php" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/is_allowed.php" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/js/dialog-v4.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/js/dialog-v4.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/js/dialog.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/js/dialog.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/en.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/en.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/en_dlg.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/en_dlg.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/fr.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/fr.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/fr_dlg.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/fr_dlg.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/ru.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/ru.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/ru_dlg.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/langs/ru_dlg.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/plugin.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/plugin.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/readme" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/jbimages/readme" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/layer/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/link/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/lists/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/media/moxieplayer.swf" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/media/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/noneditable/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/paste/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/placeholder/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/placeholder/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/preview/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/print/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/save/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/table/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/template/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/textpattern/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/visualchars/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/plugins/wordcount/plugin.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/content.inline.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/content.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/anchor.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/loader.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/object.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/img/trans.gif" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/skins/lightgray/skin.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/themes/modern/theme.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/public/assets/js/tinymce/tinymce.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/wow.min.js" afterPath="$PROJECT_DIR$/public/assets/js/wow.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/main-blog.js" afterPath="$PROJECT_DIR$/public/assets/main-blog.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/masonry-3.1.4.js" afterPath="$PROJECT_DIR$/public/assets/masonry-3.1.4.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/mike" afterPath="$PROJECT_DIR$/public/assets/mike" />
-      <change beforePath="$PROJECT_DIR$/public/assets/nova.png" afterPath="$PROJECT_DIR$/public/assets/nova.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/redox" afterPath="$PROJECT_DIR$/public/assets/redox" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_1maxresdefault.jpg" afterPath="$PROJECT_DIR$/public/assets/rsz_1maxresdefault.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_1polymer.png" afterPath="$PROJECT_DIR$/public/assets/rsz_1polymer.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_1screenshot_from_2017-03-09_085600.png" afterPath="$PROJECT_DIR$/public/assets/rsz_1screenshot_from_2017-03-09_085600.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_2000px-php-logosvg.png" afterPath="$PROJECT_DIR$/public/assets/rsz_2000px-php-logosvg.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" afterPath="$PROJECT_DIR$/public/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_ajax-logo.jpg" afterPath="$PROJECT_DIR$/public/assets/rsz_ajax-logo.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_bootstrap.png" afterPath="$PROJECT_DIR$/public/assets/rsz_bootstrap.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_css3-logo.png" afterPath="$PROJECT_DIR$/public/assets/rsz_css3-logo.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_html5_logo_256.png" afterPath="$PROJECT_DIR$/public/assets/rsz_html5_logo_256.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_image23.png" afterPath="$PROJECT_DIR$/public/assets/rsz_image23.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_javascript_logo.png" afterPath="$PROJECT_DIR$/public/assets/rsz_javascript_logo.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_logo-mysql-170x115.png" afterPath="$PROJECT_DIR$/public/assets/rsz_logo-mysql-170x115.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_mise-a-jours-demo-linux-inside-3.png" afterPath="$PROJECT_DIR$/public/assets/rsz_mise-a-jours-demo-linux-inside-3.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_polymer.png" afterPath="$PROJECT_DIR$/public/assets/rsz_polymer.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_react.png" afterPath="$PROJECT_DIR$/public/assets/rsz_react.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_redis.png" afterPath="$PROJECT_DIR$/public/assets/rsz_redis.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_rest-api-logo.png" afterPath="$PROJECT_DIR$/public/assets/rsz_rest-api-logo.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_screenshot_from_2017-03-09_085600.png" afterPath="$PROJECT_DIR$/public/assets/rsz_screenshot_from_2017-03-09_085600.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/rsz_wordpress-logo-stacked-rgb.png" afterPath="$PROJECT_DIR$/public/assets/rsz_wordpress-logo-stacked-rgb.png" />
-      <change beforePath="$PROJECT_DIR$/public/assets/security" afterPath="$PROJECT_DIR$/public/assets/security" />
-      <change beforePath="$PROJECT_DIR$/public/assets/sweetalert.css" afterPath="$PROJECT_DIR$/public/assets/sweetalert.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/sweetalert.min.js" afterPath="$PROJECT_DIR$/public/assets/sweetalert.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/toggle.css" afterPath="$PROJECT_DIR$/public/assets/toggle.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/wallpaper.jpg" afterPath="$PROJECT_DIR$/public/assets/wallpaper.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/assets/web" afterPath="$PROJECT_DIR$/public/assets/web" />
-      <change beforePath="$PROJECT_DIR$/public/assets/whu.png" afterPath="$PROJECT_DIR$/public/assets/whu.png" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/icon-144.png" afterPath="$PROJECT_DIR$/public/icon-144.png" />
-      <change beforePath="$PROJECT_DIR$/public/icon-192.png" afterPath="$PROJECT_DIR$/public/icon-192.png" />
-      <change beforePath="$PROJECT_DIR$/public/icon-96.png" afterPath="$PROJECT_DIR$/public/icon-96.png" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/public/posts/1.png" afterPath="$PROJECT_DIR$/public/posts/1.png" />
-      <change beforePath="$PROJECT_DIR$/public/posts/10.jpg" afterPath="$PROJECT_DIR$/public/posts/10.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/posts/3.jpg" afterPath="$PROJECT_DIR$/public/posts/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/posts/4.jpg" afterPath="$PROJECT_DIR$/public/posts/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/posts/5.jpg" afterPath="$PROJECT_DIR$/public/posts/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/posts/7.jpg" afterPath="$PROJECT_DIR$/public/posts/7.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/public/web.config" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/author.blade.php" afterPath="$PROJECT_DIR$/resources/views/author.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/create.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/edit.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog.blade.php" afterPath="$PROJECT_DIR$/resources/views/blog.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/plain.blade.php" afterPath="$PROJECT_DIR$/resources/views/emails/plain.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/authorPanel.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/authorPanel.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/authorWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/authorWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/backToBlogWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/backToBlogWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/blogPost.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/blogPost.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/categoriesWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/categoriesWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/contactModal.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/contactModal.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/dropZone.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/dropZone.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/emailScript.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/emailScript.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/emailSignup.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/emailSignup.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/googleAnalytics.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/googleAnalytics.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/navigationBar.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/navigationBar.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/pushNotificationScript.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/pushNotificationScript.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/recentPostsWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/recentPostsWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/searchWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/searchWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/smsSignup.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/smsSignup.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/tagsWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/tagsWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/textWidget.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/textWidget.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" afterPath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" />
-      <change beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
-      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -426,18 +31,38 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            <state relative-caret-position="198">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="759">
+              <caret line="158" column="50" lean-forward="true" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -453,6 +78,8 @@
       <find>endpoint:</find>
       <find>register</find>
       <find>$device</find>
+      <find>dela</find>
+      <find>smp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -461,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/partials/recentPostsWidget.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/categoriesWidget.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/tagsWidget.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/textWidget.blade.php" />
@@ -485,7 +111,6 @@
         <option value="$PROJECT_DIR$/app/Email.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_02_17_184539_add_pictures_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/config/image.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PictureController.php" />
@@ -508,10 +133,12 @@
         <option value="$PROJECT_DIR$/resources/views/author.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/pushNotificationScript.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/PushNotification.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -597,8 +224,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="1906" />
-    <option name="height" value="1049" />
+    <option name="width" value="1366" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -625,6 +252,29 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -701,15 +351,15 @@
       <option name="presentableId" value="Default" />
       <updated>1481424007245</updated>
       <workItem from="1523263788560" duration="2363000" />
-      <workItem from="1523266579545" duration="1756000" />
+      <workItem from="1523266579545" duration="7662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4119000" />
+    <option name="totallyTimeSpent" value="10025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1922" height="1053" extended-state="7" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -719,7 +369,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558164" sideWeight="0.49601594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21558164" sideWeight="0.49601594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -778,13 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date_c.php" />
     <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_15_185000_add_timestamps_to_mobile_devices_table.php">
@@ -878,20 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/googleAnalytics.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="47" lean-forward="false" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -903,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="148" column="51" lean-forward="false" selection-start-line="148" selection-start-column="51" selection-end-line="148" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1082,14 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partials/pushNotificationScript.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1117,10 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/googleAnalytics.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="198">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1129,6 +743,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="158" column="50" lean-forward="true" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
           <folding />
         </state>
       </provider>
