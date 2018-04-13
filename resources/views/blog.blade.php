@@ -7,7 +7,7 @@
         @if(isset($selectedPost))
             @include('partials.blogPost', ['post' => $selectedPost])
             <hr>
-            @include('partials.authorPanel')
+            @include('partials.profilePanel')
             {{--
             @if(!session('email'))
                 @include('partials.emailSignup')
@@ -19,7 +19,7 @@
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
             <hr>
-            @include('partials.authorPanel')
+            @include('partials.profilePanel')
             {{--
             @if(!session('email'))
                 @include('partials.emailSignup')
@@ -32,7 +32,7 @@
     <!--BLOG SIDEBAR -->
     <div class="side-bar col-md-4">
         @include('partials.textWidget')
-        @include('partials.authorWidget')
+        @include('partials.profileWidget')
 
         {{--@include('partials.searchWidget')--}}
         {{--@include('partials.recentPostsWidget')--}}

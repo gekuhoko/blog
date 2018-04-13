@@ -13,7 +13,7 @@ Route::controller('push-notification', 'PushNotificationController');
 Route::get('worker.js', 'PushNotificationController@getWorkerScript');
 
 Route::get('/', 'PageController@getIndex');
-Route::get('blog', 'PageController@getBlog');
+Route::get('profile', 'PageController@getProfile');
 Route::get('{fallback}', 'PageController@fallback');
 
 

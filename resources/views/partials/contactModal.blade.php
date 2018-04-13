@@ -4,7 +4,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <a class="pull-left" href="/author" style="margin:0; padding: 0;">
+                <a class="pull-left" href="/profile" style="margin:0; padding: 0;">
                     <img class="media-object" src="/assets/author.png" style="border-radius: 64px; margin-right:15px; padding:0; margin-bottom: 12px; margin-top: 3px;">
                 </a>
                 <button id="contact_modal_close" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>

@@ -1,7 +1,7 @@
 <!--ABOUT AUTHOR-->
 <div class="author-widget">
     <div class="widget" style="text-align: right; background: #ffffff; border:none; margin-bottom:0; padding-bottom:0;">
-        <a class="pull-right" href="/author" style="margin:0; padding: 0;">
+        <a class="pull-right" href="/profile" style="margin:0; padding: 0;">
             <img class="media-object" src="/assets/author.png" style="border-radius: 64px; margin-left:10px; padding:0;">
         </a>
         <div style="font-size:150%; ">{{config('owner.name')}}</div>

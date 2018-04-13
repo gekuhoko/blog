@@ -15,9 +15,9 @@ class PageController extends Controller
         return view('blog', compact('posts'));
     }
 
-    public function getBlog()
+    public function getProfile()
     {
-        return view('author');
+        return view('profile');
     }
 
     public function fallback($value)
