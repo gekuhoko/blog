@@ -52,6 +52,15 @@
                         <img style="height:75px; width: auto; margin: 30px;" src="/assets/frankth.png">
                     </a>
                 </div>
+                <BR>
+                <div style="display:inline;" class="wow zoomIn"
+                     data-wow-duration="3s" data-wow-delay="0s"
+                     data-wow-offset="2" data-wow-iteration="1">
+                    <a href="https://www.carrotbenefits.com/" target="_blank">
+                        <img style="height:65px; padding-top:20px; width: auto; margin: 30px;" src="/assets/carrotbenefits.png">
+                    </a>
+                </div>
+                <BR>
                 <div style="display:inline;" class="wow zoomIn"
                      data-wow-duration="2s" data-wow-delay="0s"
                      data-wow-offset="2" data-wow-iteration="1">
@@ -85,38 +94,44 @@
             </div>
             <hr>
             <div style="margin-top:40px;">
-                As Senior PHP web developer, I help building <a style="text-decoration: underline" href="https://www.frank.co.th/" target="_blank">Frank.co.th</a> - Thailand's leading online insurance platform initiated by the partners at <a style="text-decoration: underline" href="http://www.novafounders.com" target="_blank">Nova Founders Capital</a>.
-                On the side, I run my personal passion project: <a style="text-decoration: underline" href="http://www.TheTrustCall.com" target="_blank">TheTrustCall.com</a>.<BR><BR>
-                I help internet companies turn ideas into real web applications.
-                If you need technical expertise for your project - feel free to email.
-                I do freelance work and look forward to hearing about your project: <a style="text-decoration: underline" title="kuschnik.gerhard@gmail.com" href="mailto:kuschnik.gerhard@gmail.com">kuschnik.gerhard@gmail.com</a>
+                As Senior Web Developer, I help building <a style="text-decoration: underline" href="https://www.ifwd.com.tw/" target="_blank">iFWD.com.tw</a> - Taiwan's online presence of Asia's leading insurer.<BR>
+                Prior to joining FWD, I built <a style="text-decoration: underline" href="https://www.frank.co.th/" target="_blank">Frank.co.th</a> - Thailand's leading online insurance platform initiated by the partners at <a style="text-decoration: underline" href="http://www.novafounders.com" target="_blank">Nova Founders Capital</a>.<BR>
+                In the evenings and on weekends, I support start-ups to turn ideas into web applications - such as <a style="text-decoration: underline" href="https://carrotbenefits.com/welcome" target="_blank">CarrotBenefits.com</a>.<BR>
+                <BR>
+                If you need technical expertise for your project - feel free to email.<BR>
+                I do remote work and look forward to hearing about your project: <a style="font-weight: 600; text-decoration: underline" title="kuschnik.gerhard@gmail.com" href="mailto:kuschnik.gerhard@gmail.com">kuschnik.gerhard@gmail.com</a>
                 <BR><BR>
                 <a style="text-decoration: underline" title="LinkedIn" href="http://hk.linkedin.com/in/gerhardkuschnik" target="_blank">LinkedIn</a> |
                 <a style="text-decoration: underline" title="Twitter" href="https://twitter.com/GerhardKuschnik" target="_blank">Twitter</a> |
-                <a style="text-decoration: underline" title="Twitter" href="https://angel.co/gerhard-kuschnik-1" target="_blank">Angel List</a>
+                <a style="text-decoration: underline" title="Angel List" href="https://angel.co/gerhard-kuschnik-1" target="_blank">Angel List</a>
             </div>
 
             <h4 style="text-align:center; margin-top:70px; margin-bottom: 1.5em;">Technology for your startup</h4>
             <div style="margin:auto; text-align: center;">
-                <img style="padding: 25px;" src="/assets/rsz_2000px-php-logosvg.png" alt="" />
+                <img style="padding: 25px;" src="/assets/rsz_2000px-php-logosvg.png" alt="Php" />
                 <img style="padding: 25px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" />
-                <img style="padding: 25px;" src="/assets/java.png" alt="" />
-                <img style="padding: 25px;" src="/assets/spring.png" alt="" /><BR>
-
-                <img style="padding: 25px;" src="/assets/rsz_react.png" alt="ReactJS" />
+                <img style="padding: 25px;" src="/assets/java.png" alt="Java" />
+                <img style="padding: 25px;" src="/assets/spring.png" alt="Spring" />
+                <BR>
                 <img style="padding: 25px;" src="/assets/rsz_image23.png" alt="VueJs" />
                 <img style="padding: 25px;" src="/assets/rsz_1screenshot_from_2017-03-09_085600.png" alt="TypeScript" />
+                <img style="padding: 25px;" src="/assets/rsz_react.png" alt="ReactJS" />
                 <img style="padding: 25px;" src="/assets/jquery_opt.jpg" alt="" />
+                <BR>
+                <img style="padding: 25px;" src="/assets/mongodb.png" alt="MongoDB" />
+                <img style="padding: 25px;" src="/assets/rsz_redis.png" alt="Redis" />
+                <img style="padding: 25px;" src="/assets/rsz_logo-mysql-170x115.png" alt="MySQL" />
+                <BR>
+                <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="JavaScript" />
+                <img style="padding: 25px;" src="/assets/rsz_ajax-logo.jpg" alt="AJAX" />
+                <img style="padding: 25px;" src="/assets/rsz_rest-api-logo.png" alt="Rest API" />
+                <BR>
+                <img style="padding: 25px;" src="/assets/rsz_wordpress-logo-stacked-rgb.png" alt="WordPress" />
+                <img style="padding: 25px;" src="/assets/rsz_bootstrap.png" alt="BootStrap" />
+                <img style="padding: 25px;" src="/assets/rsz_html5_logo_256.png" alt="HTML5" />
+                <img style="padding: 25px;" src="/assets/rsz_css3-logo.png" alt="CSS3" />
+
                 <img style="padding: 25px;" src="/assets/rsz_1maxresdefault.jpg" alt="Forge" />
-                <img style="padding: 25px;" src="/assets/rsz_rest-api-logo.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_ajax-logo.jpg" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_wordpress-logo-stacked-rgb.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_bootstrap.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_html5_logo_256.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_css3-logo.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_logo-mysql-170x115.png" alt="" />
-                <img style="padding: 25px;" src="/assets/rsz_redis.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_mise-a-jours-demo-linux-inside-3.png" alt="Linux" />
             </div>
 
