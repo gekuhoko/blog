@@ -71,7 +71,6 @@
         <div id="total_wrapper" style="display:none;">
             @include('partials.googleAnalytics')
             @include('partials.navigationBar')
-
             <main>
                 <div class="container" style="overflow: hidden;">
                     <div class="row">

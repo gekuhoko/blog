@@ -20,6 +20,7 @@ Route::get('{fallback}', 'PageController@fallback');
 
 /*
  *  Execution structure:
+ *  Hard to find balace
  *      - one article per week (wednesday 11:00)
  *      - some coding
  *      - some social media activity
@@ -28,13 +29,20 @@ Route::get('{fallback}', 'PageController@fallback');
             - tactics (dirt)
 
 Next items
+    Try new publishing platforms
+        Medium
+        Hackernoon
+        Quora
+        Youtube
+        IG (story)
+        .. where else is my audience?
 
-    WRITE
 
     CODE AFTER
-        - improve contact form
-            - also send SMS / push notification to me
-            - also add phone for them (so i can call)
+        - Fix image upload / edit
+		    - Have a nice overview page
+
+        - Add signup via email / sms
 
         - Add scheduled publishing
             "published at" setter with hiding in frontend
@@ -42,7 +50,6 @@ Next items
         - Add share-bar like in financial samurai
             add article link to backend
 
-        - Add signup via email / sms
         - Check SEO improvements
 
 (AUTO)Distribution to target (biz owners)
