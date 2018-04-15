@@ -11,7 +11,7 @@
                 <p class="info" style="margin-top: 0;">
                     {!! config('owner.description') !!}
                     <BR>
-                    <a href="/" style="text-decoration: underline; font-weight:700">{{config('owner.name')}} >></a>
+                    <a href="/profile" style="text-decoration: underline; font-weight:700">{{config('owner.name')}} >></a>
                 </p>
             </div>
         </div>

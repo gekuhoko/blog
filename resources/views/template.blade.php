@@ -61,7 +61,6 @@
             hr {
                 height: 4px;
                 border-top: 2px solid #f0f0f0;
-                border-bottom: 2px solid #e0e0e0;
             }
         </style>
 

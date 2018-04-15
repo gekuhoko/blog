@@ -25,24 +25,17 @@
             </div>
             <div style="margin:auto; text-align: center;">
                 <div style="display:inline;" class="wow zoomIn"
-                     data-wow-duration="2s" data-wow-delay="0s"
+                     data-wow-duration="4s" data-wow-delay="0s"
                      data-wow-offset="2" data-wow-iteration="1">
-                    <a href="https://www.whu.edu/en/" target="_blank">
-                        <img style="height:75px; width: auto; margin: 35px;" src="/assets/whu.png">
-                    </a>
-                </div>
-                <div style="display:inline;" class="wow zoomIn"
-                     data-wow-duration="3s" data-wow-delay="0s"
-                     data-wow-offset="2" data-wow-iteration="1">
-                    <a href="http://www.bm.ust.hk/" target="_blank">
-                        <img style="height:75px; width: auto; margin: 35px;" src="/assets/hkust.png">
+                    <a href="https://www.ifwd.com.tw/" target="_blank">
+                        <img style="height:75px; width: auto; margin: 35px;" src="/assets/fwd.png">
                     </a>
                 </div>
                 <div style="display:inline;" class="wow zoomIn"
                      data-wow-duration="4s" data-wow-delay="0s"
                      data-wow-offset="2" data-wow-iteration="1">
                     <a href="http://www.novafounders.com/" target="_blank">
-                        <img style="height:75px; width: auto; margin: 35px;" src="/assets/nova.png"><BR>
+                        <img style="padding-top:10px; height:75px; width: auto; margin: 35px;" src="/assets/nova.png"><BR>
                     </a>
                 </div>
                 <div style="display:inline;" class="wow zoomIn"
@@ -60,10 +53,17 @@
                     </a>
                 </div>
                 <div style="display:inline;" class="wow zoomIn"
-                     data-wow-duration="4s" data-wow-delay="0s"
+                     data-wow-duration="2s" data-wow-delay="0s"
                      data-wow-offset="2" data-wow-iteration="1">
-                    <a href="https://www.frankinsure.com.tw/" target="_blank">
-                        <img style="height:75px; width: auto; margin: 50px 30px 30px 30px;" src="/assets/franktw.png">
+                    <a href="https://www.whu.edu/en/" target="_blank">
+                        <img style="height:75px; width: auto; margin: 35px;" src="/assets/whu.png">
+                    </a>
+                </div>
+                <div style="display:inline;" class="wow zoomIn"
+                     data-wow-duration="3s" data-wow-delay="0s"
+                     data-wow-offset="2" data-wow-iteration="1">
+                    <a href="http://www.bm.ust.hk/" target="_blank">
+                        <img style="height:75px; width: auto; margin: 35px;" src="/assets/hkust.png">
                     </a>
                 </div>
             </div>
@@ -72,13 +72,13 @@
             <div style="margin:auto; text-align: center;" class="row">
                 <div class="col-sm-6" style="padding-top:20px; padding-bottom:20px;">
                 <span style="font-weight:100; font-size:200%;">
-                    10 Years <BR>
+                    11 Years <BR>
                     in Startups
                 </span>
                 </div>
                 <div class="col-sm-6" style="padding-top:20px; padding-bottom:20px;">
                 <span style="font-weight:100; font-size:200%;">
-                    6 Years <BR>
+                    7 Years <BR>
                     in Hong Kong
                 </span>
                 </div>
@@ -96,20 +96,22 @@
                 <a style="text-decoration: underline" title="Twitter" href="https://angel.co/gerhard-kuschnik-1" target="_blank">Angel List</a>
             </div>
 
-            <h4 style="margin-top:70px; margin-bottom: 1.5em;">Technology for your startup</h4>
+            <h4 style="text-align:center; margin-top:70px; margin-bottom: 1.5em;">Technology for your startup</h4>
             <div style="margin:auto; text-align: center;">
                 <img style="padding: 25px;" src="/assets/rsz_2000px-php-logosvg.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_7b02393ac4fd02ff013658553fde24cf.png" alt="Laravel" />
-                <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="" />
+                <img style="padding: 25px;" src="/assets/java.png" alt="" />
+                <img style="padding: 25px;" src="/assets/spring.png" alt="" /><BR>
+
                 <img style="padding: 25px;" src="/assets/rsz_react.png" alt="ReactJS" />
-                <img style="padding: 25px;" src="/assets/rsz_1screenshot_from_2017-03-09_085600.png" alt="TypeScript" />
-                <img style="padding: 25px;" src="/assets/rsz_1polymer.png" alt="PolymerJs" />
                 <img style="padding: 25px;" src="/assets/rsz_image23.png" alt="VueJs" />
+                <img style="padding: 25px;" src="/assets/rsz_1screenshot_from_2017-03-09_085600.png" alt="TypeScript" />
+                <img style="padding: 25px;" src="/assets/jquery_opt.jpg" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_1maxresdefault.jpg" alt="Forge" />
                 <img style="padding: 25px;" src="/assets/rsz_rest-api-logo.png" alt="" />
-                <img style="padding: 25px;" src="/assets/jquery_opt.jpg" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_ajax-logo.jpg" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_wordpress-logo-stacked-rgb.png" alt="" />
+                <img style="padding: 25px;" src="/assets/rsz_javascript_logo.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_bootstrap.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_html5_logo_256.png" alt="" />
                 <img style="padding: 25px;" src="/assets/rsz_css3-logo.png" alt="" />
