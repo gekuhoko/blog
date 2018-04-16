@@ -51,7 +51,6 @@ If you find a wave in an early stage and you think it will get big: <strong> be 
 </ul>
 Once you have ridden a wave from the early stage, you will never want to do anything else. I promise.';
         $post->created_at = '2015-03-06 01:49:00';
-        $post->image_url = '/posts/1.png';
         $post->author_id = 1;
         $post->save();
 
@@ -87,7 +86,6 @@ Once you get too many customers and have good cash flow: hire people to help you
 <BR>
 That\'s it. No rocket science. Now do it!';
         $post->created_at = '2015-03-07 11:11:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -115,7 +113,6 @@ Everyone will like you. Because they feel it is good to be around you.<BR>
 <BR>
 That is actually why you want that Ferrari in the first place. You just want to be liked.';
         $post->created_at = '2015-03-07 13:06:00';
-        $post->image_url = '/posts/3.jpg';
         $post->author_id = 1;
         $post->save();
 
@@ -156,7 +153,6 @@ Articles:<BR>
 	<li><a href="http://commonhealth.wbur.org/2013/03/minutes-exercise-longer-life" target="_blank">http://commonhealth.wbur.org/2013/03/minutes-exercise-longer-life</a></li>
 </ul>';
         $post->created_at = '2015-03-07 13:27:00';
-        $post->image_url = '/posts/4.jpg';
         $post->author_id = 1;
         $post->save();
 
@@ -188,7 +184,6 @@ You are the average of the 5 people you pass most time with. Meet people who are
 Listen carefully to your mind and body and incorporate the needs in your routines. Optimize for mastery in your field - but do not neglect your inner balance. Give this concept the attention it deserves. Otherwise you give up because of an imbalance. You quit before becoming great. You must be the one who never quits.<BR>
 <em>Every day I was practicing poker for 10 hours. I was reading the theory during lunch, while exercising (podcasts) and in the evenings while relaxing on the sofa - a total of 3 hours per day. I did this every Monday to Saturday. Saturday night I went out and met friends. Sunday I recharged for the next week.</em>';
         $post->created_at = '2015-03-08 14:02:00';
-        $post->image_url = '/posts/5.jpg';
         $post->author_id = 1;
         $post->save();
 
@@ -218,7 +213,6 @@ Never settle. Especially for second best. Keep running. Stay hungry...<BR>
 <BR>
 That\'s our generation.';
         $post->created_at = '2015-03-16 01:06:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -264,7 +258,6 @@ The consequences:</p>
 </ul>
 <p dir="ltr"><strong>I hope I gave you a bit of inspirational input. Feedback is awesome. Leave your comment now! Thank you! </strong></p>';
         $post->created_at = '2015-03-17 11:05:00';
-        $post->image_url = '/posts/7.jpg';
         $post->author_id = 1;
         $post->save();
 
@@ -303,7 +296,6 @@ Here is the dream business co-founder:<BR>
 <BR>
 <strong>Techies - choose your business partner wisely!</strong>';
         $post->created_at = '2015-03-25 00:42:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -368,7 +360,6 @@ Last but not least: People matter. Make the right hiring decisions.<BR>
 </ul>
 </div>';
         $post->created_at = '2015-08-14 14:29:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -430,7 +421,6 @@ A Stripe for high-risk businesses that has a simple technical implementation but
 <strong>Last but not least: Note of warning:</strong><BR>
 Make sure your employer knows about your side business. Look at your employment contract - you might have to renegotiate specific clauses. Do not risk to breach your agreement. Make sure that your employer and your side business do something completely different. You want to avoid potential conflicts of interest. Once you make some revenue, create a separate legal entity for your project.';
         $post->created_at = '2015-08-15 15:50:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -485,7 +475,6 @@ Most top developers are satisfied with their stable and relatively safe jobs. On
 <BR>
 Put in the work. Use LinkIn to research who works at the best technology companies in your area. Try to find the developers\' website and private e-mail address. Consider even reaching out via Facebook. Always reply quickly if you get a response.';
         $post->created_at = '2015-08-17 16:16:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -528,7 +517,6 @@ You must be better than anyone else in this world. Better by a margin.<BR>
 <BR>
 The best get the price - <strong>the cash perpetuum mobile</strong>! Until someone wants it more than you.';
         $post->created_at = '2015-08-19 08:19:00';
-        $post->image_url = '/posts/10.jpg';
         $post->author_id = 1;
         $post->save();
 
@@ -578,7 +566,6 @@ Your stuff sucks because you need more than 2 seconds.<BR>
 <BR>
 Your thing fails because you feel entitled to more than 2 seconds.';
         $post->created_at = '2015-09-09 12:10:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -620,7 +607,6 @@ Once you have raised outside money, focussing on the above becomes increasingly 
 <BR>
 Hunt the right goals.';
         $post->created_at = '2015-09-22 15:28:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
@@ -664,7 +650,6 @@ Start your startup idea brainstorming with questions like<BR>
 </ul>
 If you have very clear answers to the above, you will likely succeed. Start with charging very little to nothing. Build brand equity and reputation. Get testimonials and referrals. Automate. Productize. Make yourself the only viable option. Over time, you get the ability to capture more of the value you create.';
         $post->created_at = '2015-11-09 15:29:00';
-        $post->image_url = null;
         $post->author_id = 1;
         $post->save();
 
