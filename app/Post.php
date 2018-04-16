@@ -45,8 +45,13 @@ class Post extends Model
         return $result;
     }
 
-    public function pictures($master = false)
+    public function pictures($master = null)
     {
-        return Picture::where('fk_post', $this->id)->where('master', $master)->get();
+        $query = Picture::where('fk_post', $this->id);
+        if (null != $master){
+            $query = $query->where('master', $master);
+        }
+
+        return $query->get();
     }
 }

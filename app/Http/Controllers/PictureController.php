@@ -65,25 +65,17 @@ class PictureController extends Controller
     public function postMaster($id)
     {
         $newMaster = Picture::find($id);
-        $oldMaster = Picture::where('fk_offer', $newMaster->fk_offer)->where('master', true)->first();
-        if (!$oldMaster){
-            $oldMaster = Picture::where('fk_company', $newMaster->fk_company)->where('master', true)->first();
-        }
-        if (!$oldMaster){
-            $oldMaster = Picture::where('fk_contact_detail', $newMaster->fk_contact_detail)->where('master', true)->first();
-        }
-        if($oldMaster){
-            $oldMaster->master = false;
-            $oldMaster->save();
-        }
+
+        $oldMaster = Picture::where('fk_post', $newMaster->fk_post)->where('master', true)->first();
+        $oldMaster->master = false;
+        $oldMaster->save();
 
         $newMaster->master = true;
         $newMaster->save();
 
         $this->result = ['result' => true];
+
         return $this->result;
-
     }
-
 
 }

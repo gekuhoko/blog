@@ -30,12 +30,7 @@ Route::get('{fallback}', 'PageController@fallback');
 
 
 Next items
-
-
     Open Rate
-        - Fix image upload / edit
-		    - Have a nice overview page
-            - use your own image with filter and headline
         - Make article link
         - Make article preview text for FB link
 
@@ -47,7 +42,7 @@ Next items
 
     STICK
         - Add signup via email / sms
-        - Add overview
+        - - Have a nice overview page
 
     Share
         - Add share-bar like in financial samurai
@@ -61,7 +56,7 @@ Next items
         - Do google Adwords
 
     Add more branding
-        image
+        use your own image with filter and headline
         signature
 
 

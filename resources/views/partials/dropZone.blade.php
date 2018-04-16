@@ -16,7 +16,7 @@
         </div>
         <div class="row">
             <button id="show_picture_upload" class="btn btn-default">Upload Pictures</button>
-            <form style="display:none" action="/api/picture/create/{{App\Post::nextId()}}"
+            <form style="display:none" action="/api/picture/create/{{$postId}}"
                   class="dropzone"
                   id="my-awesome-dropzone">
             </form>
@@ -36,7 +36,7 @@
             });
 
             $(document).on( 'click', '.picture_delete', function(){
-                $(this).html('{{trans('s.Deleting...')}}').prop('disabled', true);
+                $(this).html('Deleting...').prop('disabled', true);
                 var pictureId = $(this).attr('data-picture-id');
                 $.ajax({
                     type: 'POST',
@@ -48,7 +48,7 @@
             });
 
             $(document).on( 'click', '.picture_master', function(){
-                $(this).html('{{trans('s.Loading...')}}').prop('disabled', true);
+                $(this).html('Loading...').prop('disabled', true);
                 var pictureId = $(this).attr('data-picture-id');
                 $.ajax({
                     type: 'POST',
@@ -63,11 +63,11 @@
 
             function updatePictureList()
             {
+                $('#current_pictures').html('');
                 $.ajax({
                     type: 'GET',
-                    url: '{{url('api/picture/list/'.App\Post::nextId())}}',
+                    url: '{{url('api/picture/list/'.$postId)}}',
                     success: function(response){
-                        $('#current_pictures').html('');
                         var masterButton = '';
                         for (i = 0; i < response.length; i++) {
                             if(response[i].master != 1){

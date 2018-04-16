@@ -2,6 +2,10 @@
 
 @section('content')
     <div class="main-content col-md-12">
+
+        <BR>
+        @include('partials.dropZone', ['post' => $post, $postId = $post->id])<BR><BR>
+
         <input type="text" id="title" required="required" maxlength="50" placeholder="Title" style="width:50%" value="{{$post->title}}">
         <input type="text" id="created_at" required="required" maxlength="50" placeholder="Created At" style="width:50%" value="{{$post->created_at}}">
         <textarea style="width:99%; border: 1px solid grey; border-radius: 3px;" id="body"  placeholder="Body" rows="15">{{$post->body}}</textarea>
