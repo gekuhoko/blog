@@ -20,16 +20,11 @@ class PageController extends Controller
         return view('profile');
     }
 
-    public function fallback($value)
+    public function article($slug)
     {
-        $selectedPost = Post::where('slug', $value)->first();
-        if ($selectedPost){
-            $posts = Post::where('type', 'article')
-                ->orderBy('created_at', 'DESC')
-                ->where('id', '!=', $selectedPost->id)
-                ->get();
-
-            return view('blog', compact('posts', 'selectedPost'));
+        $post = Post::where('slug', $slug)->first();
+        if ($post){
+            return view('article', compact('post'));
         }
 
         return redirect('/');

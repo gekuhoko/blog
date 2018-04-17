@@ -14,7 +14,7 @@ Route::get('worker.js', 'PushNotificationController@getWorkerScript');
 
 Route::get('/', 'PageController@getIndex');
 Route::get('profile', 'PageController@getProfile');
-Route::get('{fallback}', 'PageController@fallback');
+Route::get('{slug}', 'PageController@article');
 
 
 
@@ -31,6 +31,7 @@ Route::get('{fallback}', 'PageController@fallback');
 
 Next items
 
+    - Share
 
     - Add scheduled publishing
             - "published at" setter with hiding in frontend

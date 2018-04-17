@@ -1,24 +1,10 @@
 @extends('template')
 
 @section('content')
-        <!--BLOG MAINBAR -->
     <div class="main-content col-md-8">
-
-        @if(isset($selectedPost))
-            @include('partials.blogPost', ['post' => $selectedPost])
-            <hr>
-            @include('partials.profilePanel')
-            {{--
-            @if(!session('email'))
-                @include('partials.emailSignup')
-                <hr>
-            @endif
-            --}}
-        @endif
-
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
-            <hr>
+
             @include('partials.profilePanel')
             {{--
             @if(!session('email'))
