@@ -6,6 +6,7 @@
             @include('partials.blogPost', ['post' => $post])
 
             @include('partials.profilePanel')
+            <hr>
             {{--
             @if(!session('email'))
                 @include('partials.emailSignup')
