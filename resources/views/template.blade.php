@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{config('owner.name')}}</title>
+        @if(!isset($selectedPost))
+            <title>{{config('owner.name')}}</title>
+            <meta property="og:url" content="{{url('/')}}" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="{{config('owner.name')}}" />
+            <meta property="og:description" content="{{config('owner.title')}}" />
+            <meta property="og:image" content="{{url('/assets/author_square.jpg')}}" />
+        @else
+            <title>{{$selectedPost->title}} | {{config('owner.name')}}</title>
+            <meta property="og:url" content="{{url('/'.$post->slug)}}" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="{{$selectedPost->title}}" />
+            <meta property="og:description" content="{{$selectedPost->shortBody()}}" />
+            <meta property="og:image" content="{{$post->masterPictureUrl()}}" />
+        @endif
 
         <!-- ////////////////////////////////////////////////////////////////////////////// -->
         <!-- Note : The code of this website is written with PHP Laravel from scratch -->

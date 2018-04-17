@@ -30,6 +30,15 @@ class Post extends Model
         return $slug;
     }
 
+    public function shortBody()
+    {
+        $body = $this>body;
+        $body = strip_tags($body);
+        $body = str_limit($body, 100);
+
+        return $body;
+    }
+
     public static function nextId()
     {
         $newestId = self::latestItem()->id;
