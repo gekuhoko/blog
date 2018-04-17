@@ -31,8 +31,6 @@ Route::get('{slug}', 'PageController@article');
 
 Next items
 
-    - Share
-
     - Add scheduled publishing
             - "published at" setter with hiding in frontend
             - reminder if nothing in pipeline

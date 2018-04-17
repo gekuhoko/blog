@@ -76,6 +76,10 @@
                 .center-text-if-mobile{
                     text-align:center
                 }
+                .padding-if-mobile{
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
             }
 
             hr {

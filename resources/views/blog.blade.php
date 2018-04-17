@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('content')
-    <div class="main-content col-md-8">
+    <div class="main-content col-md-8" style="margin-top: 60px; padding-left: 0; padding-right: 0;">
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
 

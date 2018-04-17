@@ -2,9 +2,11 @@
     @if($post->masterPictureUrl())
         <img src="{{$post->masterPictureUrl()}}" style="width:100%; height:auto;">
     @endif
-    <h2>{!! $post->title !!}</h2>
-    <p><i>{{ $post->formattedCreatedAt() }}</i></p>
-    {!! $post->body !!}
+    <div class="padding-if-mobile">
+        <h2>{!! $post->title !!}</h2>
+        <p><i>{{ $post->formattedCreatedAt() }}</i></p>
+        {!! $post->body !!}
+    </div>
 </div>
 
 {{--
