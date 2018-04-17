@@ -33,6 +33,7 @@ class Post extends Model
     public function shortBody()
     {
         $body = $this->body;
+        $body = nl2br($body);
         $body = strip_tags($body);
         $body = str_limit($body, 100);
 
