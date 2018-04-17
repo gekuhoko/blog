@@ -23,7 +23,11 @@ class Post extends Model
 
     public static function slug($title)
     {
-        return str_replace(' ', '-', strtolower($title));
+        $slug = $title;
+        $slug = str_replace(' ', '-', strtolower($slug));
+        $slug = str_replace(['%',',','?', '.', '\''], '', strtolower($slug));
+        
+        return $slug;
     }
 
     public static function nextId()
