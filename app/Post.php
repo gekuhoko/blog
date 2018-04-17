@@ -35,7 +35,7 @@ class Post extends Model
         $body = $this->body;
         $body = nl2br($body);
         $body = strip_tags($body);
-        $body = str_limit($body, 100);
+        $body = str_limit($body, 200);
 
         return $body;
     }
