@@ -1,5 +1,5 @@
 <!--ABOUT AUTHOR-->
-<div class="author-widget" style="margin: 60px 0;">
+<div class="author-widget" style="margin: 60px 0 0 0;">
     <div class="widget" style="padding: 30px 30px 15px 30px; text-align: right; background: #ececec; border:none; margin-bottom:0;">
         <a class="pull-right" href="/profile" style="margin:0; padding: 0;">
             <img class="media-object" src="/assets/author.png" style="border-radius: 64px; margin-left:10px; padding:0;">
@@ -16,3 +16,4 @@
         </div>
     </div>
 </div>
+<hr>
