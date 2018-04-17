@@ -25,8 +25,8 @@ class Post extends Model
     {
         $slug = $title;
         $slug = str_replace(' ', '-', strtolower($slug));
-        $slug = str_replace(['%',',','?', '.', '\''], '', strtolower($slug));
-        
+        $slug = str_replace(['%',',','?', '.', '\'', '!'], '', strtolower($slug));
+
         return $slug;
     }
 
