@@ -30,9 +30,6 @@ Route::get('{fallback}', 'PageController@fallback');
 
 
 Next items
-      Open Rate
-        - when linking to facebook, the article picture and text needs to show
-
 
 
     - Add scheduled publishing
@@ -51,6 +48,7 @@ Next items
     Share
         - Add share-bar like in financial samurai
         - Make article like + Comment
+        - Add lazy loading
 
     Convert to contact
         - Fix contact me - remove modal and make separate page

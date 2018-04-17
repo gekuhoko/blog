@@ -8,6 +8,7 @@
             <meta property="og:type" content="article" />
             <meta property="og:title" content="{{config('owner.name')}}" />
             <meta property="og:description" content="{{config('owner.title')}}" />
+            <meta property="og:image" content="{{url('/assets/author_square.jpg')}}" />
             <meta property="og:image:secure_url" content="{{url('/assets/author_square.jpg')}}" />
         @else
             <title>{{$selectedPost->title}} | {{config('owner.name')}}</title>
@@ -15,6 +16,7 @@
             <meta property="og:type" content="article" />
             <meta property="og:title" content="{{$selectedPost->title}}" />
             <meta property="og:description" content="{{$selectedPost->shortBody()}}" />
+            <meta property="og:image" content="{{$post->masterPictureUrl()}}" />
             <meta property="og:image:secure_url" content="{{$post->masterPictureUrl()}}" />
             <meta property="og:locale" content="en_HK" />
         @endif
