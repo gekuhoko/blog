@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta property="og:site_name" content="{{config('owner.name')}} - Blog" />
-        @if(!isset($selectedPost))
+        @if(!isset($post))
             <title>{{config('owner.name')}}</title>
+            <meta property="og:site_name" content="{{config('owner.name')}} - Blog" />
             <meta property="og:url" content="{{url('/')}}" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content="{{config('owner.name')}}" />
             <meta property="og:description" content="{{config('owner.title')}}" />
             <meta property="og:image" content="{{url('/assets/author_square.jpg')}}" />
             <meta property="og:image:secure_url" content="{{url('/assets/author_square.jpg')}}" />
+            <meta property="og:locale" content="en_HK" />
         @else
-            <title>{{$selectedPost->title}} | {{config('owner.name')}}</title>
+            <title>{{$post->title}} | {{config('owner.name')}}</title>
+            <meta property="og:site_name" content="{{config('owner.name')}} - Blog" />
             <meta property="og:url" content="{{url('/'.$post->slug)}}" />
             <meta property="og:type" content="article" />
-            <meta property="og:title" content="{{$selectedPost->title}}" />
-            <meta property="og:description" content="{{$selectedPost->shortBody()}}" />
+            <meta property="og:title" content="{{$post->title}}" />
+            <meta property="og:description" content="{{$post->shortBody()}}" />
             <meta property="og:image" content="{{$post->masterPictureUrl()}}" />
             <meta property="og:image:secure_url" content="{{$post->masterPictureUrl()}}" />
             <meta property="og:locale" content="en_HK" />
