@@ -31,12 +31,6 @@ Route::get('{slug}', 'PageController@article');
 
 Next items
 
-    - Add scheduled publishing
-            - "published at" setter with hiding in frontend
-            - reminder if nothing in pipeline
-            - reminder to post once published at is reached
-            THURSDAY at 3PM
-
     STICK
         - Add signup via email / sms
         - make subscribe button instead of contact

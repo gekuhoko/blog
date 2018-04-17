@@ -4,7 +4,7 @@
     <div class="main-content col-md-12">
 
         <BR>
-        @include('partials.dropZone', [$postId => App\Post::nextId()])<BR><BR>
+        @include('partials.dropZone', ['postId' => App\Post::nextId()])<BR><BR>
 
         <input type="text" id="title" required="required" maxlength="50" placeholder="Title" style="width:50%">
         <textarea style="width:99%; border: 1px solid grey; border-radius: 3px;" id="body" placeholder="Body" rows="15"></textarea>

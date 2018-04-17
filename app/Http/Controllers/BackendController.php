@@ -16,7 +16,7 @@ class BackendController extends Controller
     public function getIndex()
     {
         $posts = Post::where('type', 'article')
-            ->orderBy('created_at', 'DESC')
+            ->orderBy('scheduled_at', 'DESC')
             ->get();
 
         return view('backend.index', compact('posts'));
@@ -37,6 +37,7 @@ class BackendController extends Controller
         $post->body = $data['body'];
         $post->type = 'article';
         $post->slug = Post::slug($data['title']);
+        $post->scheduled_at = $this->getNextSchedulingDay();
 
         if ($post->save()){
             $result = ['result' => true];
@@ -44,7 +45,6 @@ class BackendController extends Controller
 
         return $result;
     }
-
 
     public function getEdit($id)
     {
@@ -61,7 +61,7 @@ class BackendController extends Controller
         $post->title = $data['title'];
         $post->slug = Post::slug($data['title']);
         $post->body = $data['body'];
-        $post->created_at = $data['created_at'];
+        $post->scheduled_at = $data['scheduled_at'];
 
         if ($post->save()){
             $result = ['result' => true];
@@ -83,18 +83,25 @@ class BackendController extends Controller
     public function postNotify($postId)
     {
         $post = Post::find($postId);
-        $post->notified_at = Carbon::now();
-        $post->save();
-
-        $link = url('/');
-        $icon = url('/icon-192.png');
-        $devices = MobileDevice::all();
-        foreach ($devices as $device) {
-            PushNotification::send($device, config('owner.name'), $post->title, $icon, $link);
-        }
-
-        Email::sendToAll($postId);
+        $post->notifyFollowers();
 
         return ['result' => true];
+    }
+
+    private function getNextSchedulingDay()
+    {
+        $latestScheduledAt = new Carbon(
+            Post::where('title', '!=', '')
+                ->orderBy('scheduled_at', 'desc')
+                ->first()
+                ->scheduled_at
+        );
+        $now = Carbon::now();
+        $nextSchedulingDay = Post::nextSchedulingDayAfterThisTime($latestScheduledAt);
+        if ($nextSchedulingDay->lessThan($now)) {
+            $nextSchedulingDay = Post::nextSchedulingDayAfterThisTime($now);
+        }
+
+        return $nextSchedulingDay->format('Y-m-d H:i:s');
     }
 }

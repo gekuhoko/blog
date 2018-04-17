@@ -4,7 +4,7 @@
     @endif
     <div class="padding-if-mobile" style="padding-top: 5px;">
         <h2>{!! $post->title !!}</h2>
-        <p><i>{{ $post->formattedCreatedAt() }}</i></p>
+        <p><i>{{ $post->formattedScheduledAt() }}</i></p>
         {!! $post->body !!}
     </div>
 </div>

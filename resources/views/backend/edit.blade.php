@@ -7,7 +7,7 @@
         @include('partials.dropZone', ['post' => $post, $postId = $post->id])<BR><BR>
 
         <input type="text" id="title" required="required" maxlength="50" placeholder="Title" style="width:50%" value="{{$post->title}}">
-        <input type="text" id="created_at" required="required" maxlength="50" placeholder="Created At" style="width:50%" value="{{$post->created_at}}">
+        <input type="text" id="scheduled_at" required="required" maxlength="50" placeholder="Scheduled at" style="width:50%" value="{{$post->scheduled_at}}">
         <textarea style="width:99%; border: 1px solid grey; border-radius: 3px;" id="body"  placeholder="Body" rows="15">{{$post->body}}</textarea>
         <button id="submit_button" class="btn btn-primary" style="float:right">
             Save
@@ -60,7 +60,7 @@
                         _token: '{{csrf_token()}}',
                         data : {
                             title: $('#title').val(),
-                            created_at: $('#created_at').val(),
+                            scheduled_at: $('#scheduled_at').val(),
                             body: tinyMCE.activeEditor.getContent()
                         }
                     },

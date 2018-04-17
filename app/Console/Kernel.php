@@ -2,29 +2,26 @@
 
 namespace App\Console;
 
+use App\Post;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
-    /**
-     * The Artisan commands provided by your application.
-     *
-     * @var array
-     */
     protected $commands = [
-        // Commands\Inspire::class,
+        Commands\NotifyFollowersOnPublish::class,
     ];
 
-    /**
-     * Define the application's command schedule.
-     *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
-     * @return void
-     */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        $hourOfPublishing = Post::$HOUR_OF_PUBLISHING;
+        $minuteOfPublishing = Post::$MINUTE_OF_PUBLISHING + 1;
+        if(60 == $minuteOfPublishing){
+            $minuteOfPublishing = '00';
+            $hourOfPublishing ++;
+        }
+        $timeOfPublishing = $hourOfPublishing . ':' . $minuteOfPublishing;
+
+        $schedule->command('notify')->dailyAt($timeOfPublishing);
     }
 }

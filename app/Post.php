@@ -8,12 +8,34 @@ use App\Picture;
 
 class Post extends Model
 {
+    public static $DAY_OF_PUBLISHING = 3; // 0 is Monday
+    public static $HOUR_OF_PUBLISHING = 15;
+    public static $MINUTE_OF_PUBLISHING = 0;
 
-
-    public function formattedCreatedAt()
+    public function isScheduled()
     {
-        $time = new Carbon($this->created_at);
+        $now = Carbon::now();
+        $scheduledAt = new Carbon($this->scheduled_at);
+
+        if ($scheduledAt->greaterThan($now)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public function formattedScheduledAt()
+    {
+        $time = new Carbon($this->scheduled_at);
         return $time->toFormattedDateString();
+    }
+
+    public static function nextSchedulingDayAfterThisTime($carbon)
+    {
+        return $carbon->endOfWeek()->addSecond()
+        ->addDays(Post::$DAY_OF_PUBLISHING)
+        ->addHours(Post::$HOUR_OF_PUBLISHING)
+        ->addMinutes(Post::$MINUTE_OF_PUBLISHING);
     }
 
     public static function latestItem()
@@ -65,6 +87,20 @@ class Post extends Model
         if (null != $master){
             $query = $query->where('master', $master);
         }
+    }
 
+    public function notifyFollowers()
+    {
+        $this->notified_at = Carbon::now();
+        $this->save();
+
+        $link = url('/');
+        $icon = url('/icon-192.png');
+        $devices = MobileDevice::all();
+        foreach ($devices as $device) {
+            PushNotification::send($device, config('owner.name'), $this->title, $icon, $link);
+        }
+
+        Email::sendToAll($this->id);
     }
 }

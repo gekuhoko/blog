@@ -8,8 +8,11 @@
         @foreach ($posts as $post)
             <div class="row" style="border:1px solid lightgrey; padding:10px;">
                 <div class="col-md-5">
-                    <h6>{{$post->title}}</h6><BR>
-                    <a href="{{url('/'.$post->slug)}}">{{url('/'.$post->slug)}}</a>
+                    <h6>{{$post->title}}</h6>
+                    <a href="{{url('/'.$post->slug)}}">{{url('/'.$post->slug)}}</a><BR>
+                    @if($post->isScheduled())
+                        Scheduled at {{$post->formattedScheduledAt()}}
+                    @endif
                 </div>
                 <div class="col-md-7" style="border-left:1px solid lightgrey">
                     <button class="btn btn-info notify-button" onclick="notifyPost({{$post->id}})" @if($post->notified_at) disabled="disabled" @endif>Notify Followers</button>
