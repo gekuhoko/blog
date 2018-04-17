@@ -30,9 +30,10 @@ Route::get('{fallback}', 'PageController@fallback');
 
 
 Next items
-    Open Rate
-        - Make article link
-        - Make article preview text for FB link
+      Open Rate
+        - when linking to facebook, the article picture and text needs to show
+
+
 
     - Add scheduled publishing
             - "published at" setter with hiding in frontend
@@ -45,6 +46,7 @@ Next items
         - make subscribe button instead of contact
             - shows modal with sms, email, web push
         - Have a nice overview page
+        - Have comments (DISQUS?)
 
     Share
         - Add share-bar like in financial samurai
