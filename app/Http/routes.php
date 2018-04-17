@@ -42,7 +42,9 @@ Next items
 
     STICK
         - Add signup via email / sms
-        - - Have a nice overview page
+        - make subscribe button instead of contact
+            - shows modal with sms, email, web push
+        - Have a nice overview page
 
     Share
         - Add share-bar like in financial samurai

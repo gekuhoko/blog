@@ -59,6 +59,7 @@ class BackendController extends Controller
         $data = Input::get('data');
         $post = Post::find($id);
         $post->title = $data['title'];
+        $post->slug = Post::slug($data['title']);
         $post->body = $data['body'];
         $post->created_at = $data['created_at'];
 

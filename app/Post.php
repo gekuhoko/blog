@@ -52,6 +52,5 @@ class Post extends Model
             $query = $query->where('master', $master);
         }
 
-        return $query->get();
     }
 }
