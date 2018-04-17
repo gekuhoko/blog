@@ -10,7 +10,7 @@
             <div class="media-body">
                 <p class="info" style="margin-top: 6px;">
                     {!! config('owner.descriptionShort') !!}
-                    <a href="/" style="text-decoration: underline; font-weight:700; font-size:125%;">{{config('owner.name')}} >></a>
+                    <a href="/profile" style="text-decoration: underline; font-weight:700; font-size:125%;">{{config('owner.name')}} >></a>
                 </p>
             </div>
         </div>
