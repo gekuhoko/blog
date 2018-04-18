@@ -84,10 +84,14 @@
                     margin-right: -7px;
                 }
             }
-
             hr {
                 height: 4px;
                 border-top: 2px solid #f0f0f0;
+            }
+            @media(min-width:414px){
+                .move-right-if-desktop{
+                    margin-right: -15px;
+                }
             }
         </style>
 
