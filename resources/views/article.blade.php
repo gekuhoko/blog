@@ -11,13 +11,7 @@
             </a>
         </div>
 
-        @include('partials.profilePanel')
-        {{--
-        @if(!session('email'))
-            @include('partials.emailSignup')
-            <hr>
-        @endif
-        --}}
+        @include('partials.subscribeAndProfilePanel')
     </div>
 
     <!--BLOG SIDEBAR -->

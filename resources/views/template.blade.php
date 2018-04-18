@@ -117,7 +117,7 @@
         @include('partials.pushNotificationScript')
 
         @if(!session('email'))
-            @include('partials.emailScript')
+            @include('partials.subscribe.emailScript')
         @endif
 
         <script>

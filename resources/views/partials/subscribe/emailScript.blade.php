@@ -1,15 +1,15 @@
 {{-- email signup --}}
 <script type="text/javascript">
 
-    $('.email_signup_input').on('keyup', function(){
+    $('.email_subscribe_input').on('keyup', function(){
         newValue = $(this).val();
-        $('.email_signup_input').val(newValue);
+        $('.email_subscribe_input').val(newValue);
     });
 
-    $('.email_signup_button').on('click', function(){
+    $('.email_subscribe_button').on('click', function(){
 
-        if ($('.email_signup_input').val() == ''){
-            $('.email_signup_input').first().focus();
+        if ($('.email_subscribe_input').val() == ''){
+            $('.email_subscribe_input').first().focus();
         }
 
         var button = $(this);
@@ -21,13 +21,12 @@
             data: {
                 _token: '{{csrf_token()}}',
                 data : {
-                    address: $('.email_signup_input').val()
+                    address: $('.email_subscribe_input').val()
                 }
             },
             success: function(response){
                 if (response.result === true) {
-                    $('.email_signup_input').hide();
-                    $('.email_signup_button').hide();
+                    $('.email_subscribe').parent().hide();
                     swal({
                         type: 'success',
                         title: 'Success',

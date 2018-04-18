@@ -5,14 +5,13 @@
         @foreach ($posts as $post)
             @include('partials.blogPost', ['post' => $post])
 
-            @include('partials.profilePanel')
-            <hr>
-            {{--
-            @if(!session('email'))
-                @include('partials.emailSignup')
-                <hr>
-            @endif
-            --}}
+            @include('partials.subscribeAndProfilePanel')
+            <hr style="margin-top: 45px; margin-bottom: 45px;" class="visible-lg">
+            <div class="hidden-lg">
+                <br/>
+                <br/>
+                <br/>
+            </div>
         @endforeach
     </div>
 
