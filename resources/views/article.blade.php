@@ -15,7 +15,7 @@
     </div>
 
     <!--BLOG SIDEBAR -->
-    <div class="side-bar col-md-4">
+    <div class="side-bar col-md-4" style="margin-top: 60px;">
         @include('partials.textWidget')
         @include('partials.profileWidget')
 

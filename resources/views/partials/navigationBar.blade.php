@@ -1,7 +1,7 @@
 <!--NAVIGATION-->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <div style="float: right; padding-top:4px; margin-right: -12px;">
+        <div style="float: right; padding-top:4px;" class="move-right-if-mobile">
             @if(strpos(Request::path(), 'profile') === false)
                 <a class="btn btn-sm" href="/profile" style="background-color: #EB5634; color: #ffffff; font-weight:900; padding-left: 14px; padding-right: 15px;">Profile</a>
             @else

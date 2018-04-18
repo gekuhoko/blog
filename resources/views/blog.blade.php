@@ -16,9 +16,11 @@
     </div>
 
     <!--BLOG SIDEBAR -->
-    <div class="side-bar col-md-4">
-        @include('partials.textWidget')
-        @include('partials.profileWidget')
+    <div class="side-bar col-md-4" style="margin-top: 60px;">
+        <div style="margin-top: -15px">
+            @include('partials.textWidget')
+            @include('partials.profileWidget')
+        </div>
 
         {{--@include('partials.searchWidget')--}}
         {{--@include('partials.recentPostsWidget')--}}

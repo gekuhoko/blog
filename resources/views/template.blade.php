@@ -80,6 +80,9 @@
                     padding-left: 15px;
                     padding-right: 15px;
                 }
+                .move-right-if-mobile{
+                    margin-right: -7px;
+                }
             }
 
             hr {
