@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11c8f0b-9a8a-4c62-b34e-ce2e3c7f06f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/navigationBar.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/navigationBar.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigationBar.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navigationBar.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/partials/navigationBar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -116,20 +114,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4587">
-              <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="24" />
+            <state relative-caret-position="562">
+              <caret line="99" column="309" lean-forward="false" selection-start-line="99" selection-start-column="309" selection-end-line="99" selection-end-column="309" />
               <folding>
                 <element signature="e#303#408#0#HTML" expanded="true" />
-                <marker date="1523939604129" expanded="true" signature="9:19" ph="..." />
-                <marker date="1523939604129" expanded="true" signature="31:40" ph="..." />
-                <marker date="1523939604129" expanded="true" signature="49:61" ph="..." />
-                <marker date="1523939604129" expanded="true" signature="490:510" ph="..." />
-                <marker date="1523939604129" expanded="true" signature="697:718" ph="..." />
-                <marker date="1523939604129" expanded="true" signature="959:983" ph="..." />
-                <marker date="1523939604129" expanded="true" signature="1013:1042" ph="..." />
+                <element signature="e#5640#5674#0#HTML" expanded="true" />
+                <marker date="1524023819728" expanded="true" signature="9:19" ph="..." />
+                <marker date="1524023819728" expanded="true" signature="31:40" ph="..." />
+                <marker date="1524023819728" expanded="true" signature="49:61" ph="..." />
+                <marker date="1524023819728" expanded="true" signature="490:510" ph="..." />
+                <marker date="1524023819728" expanded="true" signature="697:718" ph="..." />
+                <marker date="1524023819728" expanded="true" signature="959:983" ph="..." />
+                <marker date="1524023819728" expanded="true" signature="1013:1042" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fallb</find>
       <find>font</find>
       <find>.author-widget</find>
       <find>hr</find>
@@ -169,6 +167,7 @@
       <find>HIDE</find>
       <find>email_subscribe</find>
       <find>contac</find>
+      <find>tai</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,7 +204,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_04_13_205854_remove_image_url_from_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PictureController.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/dropZone.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_04_14_014852_add_scheduled_at_to_posts_table.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/index.blade.php" />
@@ -228,6 +226,7 @@
         <option value="$PROJECT_DIR$/resources/views/article.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/navigationBar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile.blade.php" />
       </list>
     </option>
   </component>
@@ -516,12 +515,12 @@
       <workItem from="1523266579545" duration="10821000" />
       <workItem from="1523585054381" duration="5654000" />
       <workItem from="1523766408444" duration="29181000" />
-      <workItem from="1524018347974" duration="3339000" />
+      <workItem from="1524018347974" duration="4491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51358000" />
+    <option name="totallyTimeSpent" value="52510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="7" />
@@ -534,7 +533,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22038421" sideWeight="0.49601594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22038421" sideWeight="0.49601594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1076,23 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4587">
-          <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="24" />
-          <folding>
-            <element signature="e#303#408#0#HTML" expanded="true" />
-            <marker date="1523939604129" expanded="true" signature="9:19" ph="..." />
-            <marker date="1523939604129" expanded="true" signature="31:40" ph="..." />
-            <marker date="1523939604129" expanded="true" signature="49:61" ph="..." />
-            <marker date="1523939604129" expanded="true" signature="490:510" ph="..." />
-            <marker date="1523939604129" expanded="true" signature="697:718" ph="..." />
-            <marker date="1523939604129" expanded="true" signature="959:983" ph="..." />
-            <marker date="1523939604129" expanded="true" signature="1013:1042" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1170,6 +1152,24 @@
             <marker date="1524021731166" expanded="true" signature="1225:1245" ph="..." />
             <marker date="1524021731166" expanded="true" signature="1364:1385" ph="..." />
             <marker date="1524021731166" expanded="true" signature="1454:1477" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="99" column="309" lean-forward="false" selection-start-line="99" selection-start-column="309" selection-end-line="99" selection-end-column="309" />
+          <folding>
+            <element signature="e#303#408#0#HTML" expanded="true" />
+            <element signature="e#5640#5674#0#HTML" expanded="true" />
+            <marker date="1524023819728" expanded="true" signature="9:19" ph="..." />
+            <marker date="1524023819728" expanded="true" signature="31:40" ph="..." />
+            <marker date="1524023819728" expanded="true" signature="49:61" ph="..." />
+            <marker date="1524023819728" expanded="true" signature="490:510" ph="..." />
+            <marker date="1524023819728" expanded="true" signature="697:718" ph="..." />
+            <marker date="1524023819728" expanded="true" signature="959:983" ph="..." />
+            <marker date="1524023819728" expanded="true" signature="1013:1042" ph="..." />
           </folding>
         </state>
       </provider>

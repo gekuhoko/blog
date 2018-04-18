@@ -94,9 +94,10 @@
             </div>
             <hr>
             <div style="margin-top:40px;">
-                As Senior Web Developer, I help building <a style="text-decoration: underline" href="https://www.ifwd.com.tw/" target="_blank">iFWD.com.tw</a> - Taiwan's online presence of Asia's leading insurer.<BR>
+                As Senior Web Developer, I help building <a style="text-decoration: underline" href="https://www.ifwd.com.tw/" target="_blank">iFWD.com.tw</a> - the Taiwan presence of Asia's fastest-growing insurer.<BR>
                 Prior to joining FWD, I built <a style="text-decoration: underline" href="https://www.frank.co.th/" target="_blank">Frank.co.th</a> - Thailand's leading online insurance platform initiated by the partners at <a style="text-decoration: underline" href="http://www.novafounders.com" target="_blank">Nova Founders Capital</a>.<BR>
-                In the evenings and on weekends, I support start-ups to turn ideas into web applications - such as <a style="text-decoration: underline" href="https://carrotbenefits.com/welcome" target="_blank">CarrotBenefits.com</a>.<BR>
+                <BR>
+                In my free time I build web applications for startups - such as <a style="text-decoration: underline" href="https://carrotbenefits.com/welcome" target="_blank">CarrotBenefits.com</a> and <a style="text-decoration: underline" href="https://thetrustcall.com/?country=Hong%20Kong&language=english" target="_blank">TheTrustCall.com</a>.<BR>
                 <BR>
                 If you need technical expertise for your project - feel free to email.<BR>
                 I do remote work and look forward to hearing about your project: <a style="font-weight: 600; text-decoration: underline" title="kuschnik.gerhard@gmail.com" href="mailto:kuschnik.gerhard@gmail.com">kuschnik.gerhard@gmail.com</a>
