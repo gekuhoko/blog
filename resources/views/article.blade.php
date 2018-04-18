@@ -15,10 +15,9 @@
     </div>
 
     <!--BLOG SIDEBAR -->
-    <div class="side-bar col-md-4" style="margin-top: 60px;">
+    <div class="side-bar col-md-4 hidden-xs hiddem-sm" style="margin-top: 60px;">
         @include('partials.textWidget')
         @include('partials.profileWidget')
-
         {{--@include('partials.searchWidget')--}}
         {{--@include('partials.recentPostsWidget')--}}
         {{--@include('partials.categoriesWidget')--}}

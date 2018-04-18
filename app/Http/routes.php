@@ -32,7 +32,7 @@ Route::get('{slug}', 'PageController@article');
 Next items
 
     STICK
-        - Add signup via email / sms
+        - Add signup via sms
         - make subscribe button instead of contact
             - shows modal with sms, email, web push
         - Have a nice overview page
