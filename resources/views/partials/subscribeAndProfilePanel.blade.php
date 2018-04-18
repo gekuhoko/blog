@@ -1,5 +1,6 @@
 <div class="author-widget" style="background: #ececec; margin: 30px 0 0 0;">
     <div class="row">
+
         {{-- subscribe --}}
         <div class="col-sm-6">
             @if(!session('email'))
@@ -8,6 +9,7 @@
                 </div>
             @endif
         </div>
+
         {{-- profile --}}
         <div class="col-sm-6">
             <div class="widget" style="background: #ececec; padding: 30px 30px 15px 30px; text-align: right; border:none; margin:0;">

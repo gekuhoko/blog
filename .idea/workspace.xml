@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11c8f0b-9a8a-4c62-b34e-ce2e3c7f06f3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/partials/subscribe/emailMarkup.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/resources/views/article.blade.php" afterPath="$PROJECT_DIR$/resources/views/article.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog.blade.php" afterPath="$PROJECT_DIR$/resources/views/blog.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/emailScript.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/subscribe/emailScript.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/emailSignup.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/profilePanel.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" />
+      <change beforePath="$PROJECT_DIR$/app/Email.php" afterPath="$PROJECT_DIR$/app/Email.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,23 +111,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribeAndProfilePanel.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subscribeAndProfilePanel.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="99">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1524020116811" expanded="true" signature="174:191" ph="..." />
-                <marker date="1524020116811" expanded="true" signature="359:391" ph="..." />
-                <marker date="1524020116811" expanded="true" signature="925:945" ph="..." />
-                <marker date="1524020116811" expanded="true" signature="1019:1040" ph="..." />
-                <marker date="1524020116811" expanded="true" signature="1227:1261" ph="..." />
-                <marker date="1524020116811" expanded="true" signature="1383:1403" ph="..." />
+                <marker date="1524020619649" expanded="true" signature="175:192" ph="..." />
+                <marker date="1524020619649" expanded="true" signature="360:392" ph="..." />
+                <marker date="1524020619649" expanded="true" signature="927:947" ph="..." />
+                <marker date="1524020619649" expanded="true" signature="1021:1042" ph="..." />
+                <marker date="1524020619649" expanded="true" signature="1229:1263" ph="..." />
+                <marker date="1524020619649" expanded="true" signature="1385:1405" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Email.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,25 +176,6 @@
               <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <marker date="1524020141679" expanded="true" signature="952:1480" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/blog.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#314#360#0#HTML" expanded="true" />
-                <marker date="1524019290126" expanded="true" signature="9:19" ph="..." />
-                <marker date="1524019290126" expanded="true" signature="31:40" ph="..." />
-                <marker date="1524019290126" expanded="true" signature="161:176" ph="..." />
-                <marker date="1524019290126" expanded="true" signature="199:237" ph="..." />
-                <marker date="1524019290126" expanded="true" signature="261:296" ph="..." />
-                <marker date="1524019290126" expanded="true" signature="612:633" ph="..." />
-                <marker date="1524019290126" expanded="true" signature="652:676" ph="..." />
               </folding>
             </state>
           </provider>
@@ -277,7 +262,6 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Email.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_04_09_223512_add_notified_at_to_posts_table.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/contactModal.blade.php" />
         <option value="$PROJECT_DIR$/config/owner.php" />
@@ -304,9 +288,10 @@
         <option value="$PROJECT_DIR$/resources/views/article.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/emailSignup.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/subscribe/emailScript.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/subscribe/emailMarkup.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php" />
+        <option value="$PROJECT_DIR$/app/Email.php" />
       </list>
     </option>
   </component>
@@ -610,12 +595,12 @@
       <workItem from="1523266579545" duration="10821000" />
       <workItem from="1523585054381" duration="5654000" />
       <workItem from="1523766408444" duration="29181000" />
-      <workItem from="1524018347974" duration="2043000" />
+      <workItem from="1524018347974" duration="2325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50062000" />
+    <option name="totallyTimeSpent" value="50344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="7" />
@@ -762,14 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="87" column="51" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="87" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,20 +1221,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partials/subscribeAndProfilePanel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="99">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524020116811" expanded="true" signature="174:191" ph="..." />
-            <marker date="1524020116811" expanded="true" signature="359:391" ph="..." />
-            <marker date="1524020116811" expanded="true" signature="925:945" ph="..." />
-            <marker date="1524020116811" expanded="true" signature="1019:1040" ph="..." />
-            <marker date="1524020116811" expanded="true" signature="1227:1261" ph="..." />
-            <marker date="1524020116811" expanded="true" signature="1383:1403" ph="..." />
+            <marker date="1524020619649" expanded="true" signature="175:192" ph="..." />
+            <marker date="1524020619649" expanded="true" signature="360:392" ph="..." />
+            <marker date="1524020619649" expanded="true" signature="927:947" ph="..." />
+            <marker date="1524020619649" expanded="true" signature="1021:1042" ph="..." />
+            <marker date="1524020619649" expanded="true" signature="1229:1263" ph="..." />
+            <marker date="1524020619649" expanded="true" signature="1385:1405" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

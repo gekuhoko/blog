@@ -16,9 +16,9 @@ class Email extends Model
 
         There is a new blog post:
 
-        <a href="https://gerhard-kuschnik.com">'.$post->title.'</a>
+        <a href="https://gerhard-kuschnik.com/'.$post->slug.'">'.$post->title.'</a>
 
-        Enjoy the read and please let me know your thoughts!
+        Enjoy the read. Feel free to email back and let me know your thoughts!
 
         Best,
 
