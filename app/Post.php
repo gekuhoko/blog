@@ -9,7 +9,7 @@ use App\Picture;
 class Post extends Model
 {
     public static $DAY_OF_PUBLISHING = 3; // 0 is Monday
-    public static $HOUR_OF_PUBLISHING = 15;
+    public static $HOUR_OF_PUBLISHING = 13;
     public static $MINUTE_OF_PUBLISHING = 0;
 
     public function isScheduled()

@@ -17,49 +17,33 @@ Route::get('profile', 'PageController@getProfile');
 Route::get('{slug}', 'PageController@article');
 
 
-
 /*
  *  Execution structure:
  *      - one article per week (wednesday 11:00)
  *      - some coding
  *      - some social media activity
- *      - some learning (Gary Vee book? FL-hacks?)
+ *      - some strategy learning Gary Vee book
+ *      - some tactics learning FL-hacks
             - strategy (cloud)
             - tactics (dirt)
+
+Weekly content:
+    use your own image with filter and headline
+    try new format (video and podcast)
+    Facebook: Do not post as picture. Post as link to improve CTR
 
 
 
 Next items
 
-    STICK
-        - Add signup via sms
-        - make subscribe button instead of contact
-            - shows modal with sms, email, web push
-        - Have a nice overview page
-        - Have comments (DISQUS?)
+    Increase Traffic
+        - Do LinkedIn targeted ads to early stage funded companies
+        - Do FB targeted ads to early stage funded companies
 
-    Share
-        - Add share-bar like in financial samurai
-        - Make article like + Comment
-        - Add lazy loading
+        - Do Google Adwords (how richard found me)
 
-    Convert to contact
-        - Fix contact me - remove modal and make separate page
-
-    Traffic
         - Check SEO improvements
-        - Do google Adwords
 
-    Add more branding
-        use your own image with filter and headline
-        signature
-
-
-
-
-
-
-    Try new publishing platforms
         Targeted interaction
             -> check Y combinator companies
             -> check 500 start ups companies
@@ -71,52 +55,52 @@ Next items
                 -> get their data and target them in FB & LI
             -> target expats in HK
 
+        Podcast
+            Spotify
+            Twitch
+            Apple Itunes
 
+        General social media
+            Facebook
+            Reddit
+            Twitter
+            SnapChat
+            Quora (video)
+            Youtube
+            InstaGram
 
-        Twitter
-        SnapChat
-        Reddit
-        Spotify
-        Itunes
-        Hackernoon
-        Quora
-        Youtube
-        IG (story)
+        Business Social media
+            LinkedIn
+            AngelList
+            Blogs:
+                Gruenderszene
+                TechCrunch / startup blogs
+                DigitalCompact
+
+        Publishing sites
+            Medium
+            Hackernoon
+
+        Leverage influencers
         .. where else is my audience?
-
-    Try reach improvement by learning / following others
-        Medium
-        LinkedIn
-        Facebook
-
-    Leverage influencers / strongly followed people?
-        - comment on their content
-        - interact with them
-        - target their followers
-
-(AUTO)Distribution to target (biz owners)
-    -> Quora (VIDEO?)
-    -> Reddit
-    -> Youtube
-    -> Podcast?
-    -> IG
-    -> Facebook
-    -> LinkedIn
-    -> AngelList
-    -> Gruenderszene
-    -> DigitalCompact
-    -> SEM, SEO
-
-KPIs: - Visitors / day (network size)
-     - Devices registered (long term reach)
-     - Visit to contact-me conversion
+            - comment on their content
+            - interact with them
+            - target their followers
 
 
+- - - - C O D E - - - -
 
+    STICK
+        - Have a nice overview page
+        - Have comments (DISQUS?)
+        - Have tags / categories
 
-Learning:
-    Facebook: Do not post as picture. Post as link to improve CTR
+    Convert to contact
+        - Fix contact me - remove modal and make separate page
 
-
-
+    Share
+        - Add share-bar like in financial samurai
+        - Make article like + Comment
+        - Add lazy loading
 */
+

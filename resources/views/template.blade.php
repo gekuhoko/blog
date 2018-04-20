@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @if(isset($posts))
+        @if((isset($posts)) || (!(isset($post))))
             <title>{{config('owner.name')}} - {{config('owner.title')}}</title>
             <meta property="og:site_name" content="{{config('owner.name')}} - Blog" />
             <meta property="og:url" content="{{url('/')}}" />
