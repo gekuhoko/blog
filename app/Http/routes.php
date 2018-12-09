@@ -18,6 +18,51 @@ Route::get('{slug}', 'PageController@article');
 
 
 /*
+
+1. Twitter
+	https://twitter.com/noriposo/status/988814033200410626
+	https://twitter.com/eddiewzp/status/988665320532398080
+	https://twitter.com/ToogitGanesh/status/990521520563806208
+	https://twitter.com/PHPAdmirer/status/988792635908349952
+	https://twitter.com/pitch_talk/status/988085287137021953
+	https://twitter.com/workrockers/status/989010938505433088
+	https://twitter.com/BoruchLoriner/status/988514300594704384
+	https://twitter.com/KylieSaysRelax/status/989418038893187072
+	https://twitter.com/adsharesNet/status/989575260080148481
+	https://twitter.com/LordMcdougall/status/989537821047259136
+	https://twitter.com/Columbus_hired/status/990573657180160000
+	https://twitter.com/SEED365LLC/status/988934034385403904
+	https://twitter.com/jayoguntino/status/987064325230747649
+	https://twitter.com/ITCalifornia/status/990352721164173312
+	https://twitter.com/LordMcdougall/status/989537821047259136
+	https://twitter.com/tailwise/status/989421355228631041
+	https://twitter.com/mannooran/status/982277912840695808
+	http://startupjobs.asia/job/37942-web-developer-technical-job-at-uhoo-hong-kong
+
+
+
+
+
+
+
+
+Cliché
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  *  Execution structure:
  *      - one article per week (wednesday 11:00)
  *      - some coding
@@ -35,6 +80,18 @@ Weekly content:
 
 
 Next items
+    Other richard
+        - check if i can still download the videos
+        - skip through the videos
+        - message him in wechat
+
+    - Post on reddit
+
+    - Reach out on twitter
+
+
+
+    Read the hackernoon article
 
     Increase Traffic
         - Do LinkedIn targeted ads to early stage funded companies
